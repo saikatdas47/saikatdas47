@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+  <div id="navMount"></div>
+
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex items-end justify-between gap-4">
+      <h1 class="text-3xl font-bold">Blogs</h1>
+
+      <select id="sortMode"
+        class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 outline-none">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+      </select>
+    </div>
+
+    <section id="blogsSection" class="mt-6">
+      <div id="blogsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+      <div id="emptyBlogs"
+        class="hidden mt-6 rounded-xl border border-white/10 bg-white/5 p-6 text-slate-300">
+        No blog posts available.
+      </div>
+    </section>
+  </main>
+
+  <script src="js/nav.js"></script>
+  <script src="js/list.js"></script>
+  <script src="js/blogs.js"></script>
+</body>
+</html>

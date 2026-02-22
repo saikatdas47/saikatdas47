@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Introduction to Data Engineering",
+    "issuer": "IBM",
+    "issueDate": "2026-02-01",
+    "credentialId": "A46MCR637UDD",
+    "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/A46MCR637UDD",
+    "description": "",
+    "image": "assets/licences/Coursera A46MCR637UDD.png"
+  },
+  {
+    "title": "Build a Free Website with WordPress",
+    "issuer": "Coursera",
+    "issueDate": "2026-02-01",
+    "credentialId": "LA4HF1L3OL8F",
+    "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/LA4HF1L3OL8F",
+    "description": "",
+    "image": "assets/licences/Coursera LA4HF1L3OL8F.png"
+  },
+  {
+    "title": "Professional Networking for Career Growth",
+    "issuer": "HP LIFE, Mission 44, Miami EdTech",
+    "issueDate": "2026-01-01",
+    "credentialId": "",
+    "credentialUrl": "https://www.life-global.org/course/427-professional-networking-for-career-growth",
+    "description": "",
+    "image": "assets/licences/Professional Networking for Career Growth.png"
+  },
+  {
+    "title": "Responsible AI: Applying AI Principles",
+    "issuer": "Google Cloud",
+    "issueDate": "2026-01-01",
+    "credentialId": "21307039",
+    "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21307039",
+    "description": "",
+    "image": "assets/licences/Responsible AI: Applying AI Principles.png"
+  },
+  {
+    "title": "Prompt Design in Vertex AI",
+    "issuer": "Google Cloud",
+    "issueDate": "2026-01-01",
+    "credentialId": "21300762",
+    "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21300762",
+    "description": "",
+    "image": "assets/licences/Prompt Design in Vertex AI.png"
+  },
+  {
+    "title": "Introduction to Responsible AI",
+    "issuer": "Google Cloud",
+    "issueDate": "2025-07-01",
+    "credentialId": "16841877",
+    "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16841877",
+    "description": "",
+    "image": "assets/licences/Introduction to Responsible AI.png"
+  },
+  {
+    "title": "Introduction to Large Language Models",
+    "issuer": "Google Cloud",
+    "issueDate": "2025-07-01",
+    "credentialId": "16825174",
+    "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16825174",
+    "description": "",
+    "image": "assets/licences/Introduction to Large Language Models.png"
+  },
+  {
+    "title": "Introduction to Generative AI",
+    "issuer": "Google Cloud",
+    "issueDate": "2025-06-01",
+    "credentialId": "16551000",
+    "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16551000",
+    "description": "",
+    "image": "assets/licences/Introduction to Generative AI.png"
+  },
+  {
+    "title": "Professional Machine Learning Engineer Study Guide",
+    "issuer": "Google Cloud",
+    "issueDate": "2025-06-01",
+    "credentialId": "21328639",
+    "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21328639",
+    "description": "",
+    "image": "assets/licences/Professional Machine Learning Engineer Study Guide.png"
+  },
+   {
+    "title": "FREE Vision Language Models (VLM) Bootcamp",
+    "issuer": "OpenCV University",
+    "issueDate": "2026-02-23",
+    "credentialId": "7ecabf0f69714e09ad7af524e9f58759",
+    "credentialUrl": "https://courses.opencv.org/certificates/7ecabf0f69714e09ad7af524e9f58759",
+    "description": "",
+    "image": "assets/licences/opencvv.png"
+  }
+]

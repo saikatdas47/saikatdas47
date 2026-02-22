@@ -1,0 +1,62 @@
+// [
+//   {
+//     "role": "Research Assistant (Edge AI)",
+//     "company": "University Lab",
+//     "location": "Dhaka, Bangladesh",
+//     "type": "Part-time",
+//     "date": "2026-01-15",
+//     "endDate": "",
+//     "priority": 10,
+//     "details": [
+//       "Built TensorFlow → TFLite export pipelines (FP32/INT8)",
+//       "Benchmarked latency, throughput, CPU/RAM for edge devices",
+//       "Prepared evaluation tables and plots for journal submission"
+//     ],
+//     "links": [
+//       { "label": "Repo", "url": "https://github.com/yourname/project" }
+//     ]
+//   },
+//   {
+//     "role": "Machine Learning Intern",
+//     "company": "Startup X",
+//     "location": "Remote",
+//     "type": "Internship",
+//     "date": "2025-09-01",
+//     "endDate": "2025-12-15",
+//     "priority": 7,
+//     "details": [
+//       "Trained CNN models for 4-class image classification",
+//       "Improved dataset pipeline and augmentation strategy",
+//       "Wrote clean documentation and reproducible experiments"
+//     ],
+//     "links": []
+//   },
+//   {
+//     "role": "Freelance Developer",
+//     "company": "Self-employed",
+//     "location": "Chattogram, Bangladesh",
+//     "type": "Freelance",
+//     "date": "2024-03-01",
+//     "endDate": "2024-12-01",
+//     "priority": 3,
+//     "details": [
+//       "Built web apps with HTML/Tailwind/JS",
+//       "Maintained client code and deployed on GitHub Pages"
+//     ],
+//     "links": []
+//   },
+//   {
+//     "role": "Teaching Assistant (Programming)",
+//     "company": "Campus Club",
+//     "location": "Dhaka, Bangladesh",
+//     "type": "Volunteer",
+//     "date": "2023-05-10",
+//     "endDate": "2023-11-10",
+//     "priority": 5,
+//     "details": [
+//       "Helped juniors with programming basics",
+//       "Reviewed assignments and explained debugging"
+//     ],
+//     "links": []
+//   }
+// ]

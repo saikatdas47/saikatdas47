@@ -1,0 +1,47 @@
+{
+  "name": "Saikat Das",
+  "title": "Python | ML | Backend | Node.js | Data Science | Edge AI | Computer Vision",
+  "location": "Chattogram, Bangladesh",
+  
+  "profileImage": "assets/dp3.jpeg",
+
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/saikatdas47" },
+    { "label": "Code Force", "url": "https://codeforces.com/profile/the_royloard" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/saikatdas47" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=xxxx" }
+  ],
+
+  "contact": {
+    "phone": "+8801790070535",
+    "email": "saikatdasmain47@gmail.com",
+    "facebook": "https://facebook.com/yourname",
+    "instagram": "https://instagram.com/yourname",
+    "youtube": "https://youtube.com/@yourchannel"
+  },
+
+  "about":"I am Saikat Das, a Computer Science & Engineering student at Ahsanullah University of Science and Technology (AUST). I am passionate about AI, Machine Learning, NLP, and Data Science, with hands-on experience in backend development using Node.js and .NET. I enjoy building scalable, data-driven systems and contributing to projects that solve real-world problems. Always open to collaboration and learning from like-minded professionals.",
+  "skills": [
+    "Python",
+    "TensorFlow",
+    "TFLite",
+    "Computer Vision",
+    "Raspberry Pi",
+    "Docker",
+    "Pytorch",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JavaScript",
+    "React",
+    "AWS",
+    "Firebase",
+    "Git",
+    "Linux",
+    "Data Science",
+    "NLP",
+    "Edge AI",
+    "Machine Learning",
+    "Backend Development"
+  ]
+}

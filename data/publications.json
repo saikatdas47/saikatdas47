@@ -1,0 +1,46 @@
+// [
+//   {
+//     "title": "Efficient Waste Classification on Edge Devices using TFLite",
+//     "venue": "Preprint / Under Review",
+//     "year": "2026",
+//     "authors": "Saikat Das, Supervisor Name",
+//     "date": "2026-04-10",
+//     "priority": 1,
+//     "paperUrl": "",
+//     "codeUrl": "https://github.com/yourname/smart-trash-bin",
+//     "notes": "A later version draft with updated experiments."
+//   },
+//   {
+//     "title": "Benchmarking Lightweight CNNs for Raspberry Pi",
+//     "venue": "Workshop Draft",
+//     "year": "2026",
+//     "authors": "Saikat Das",
+//     "date": "2026-03-10",
+//     "priority": 2,
+//     "paperUrl": "",
+//     "codeUrl": "",
+//     "notes": "Focus: latency/throughput/CPU/RAM comparison."
+//   },
+//   {
+//     "title": "Edge Deployment Pipeline for TFLite (FP32/INT8)",
+//     "venue": "Internal Report",
+//     "year": "2025",
+//     "authors": "Saikat Das",
+//     "date": "2025-02-10",
+//     "priority": 4,
+//     "paperUrl": "",
+//     "codeUrl": "",
+//     "notes": "INT8 quantization notes and evaluation details."
+//   },
+//   {
+//     "title": "Smart Waste Sorting: Early Results",
+//     "venue": "Preliminary Notes",
+//     "year": "2026",
+//     "authors": "Saikat Das, Supervisor Name",
+//     "date": "2026-02-10",
+//     "priority": 10,
+//     "paperUrl": "",
+//     "codeUrl": "https://github.com/yourname/smart-trash-bin",
+//     "notes": "Highest priority item for homepage display."
+//   }
+// ]

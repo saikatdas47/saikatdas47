@@ -1,0 +1,41 @@
+[
+  {
+    "degree": "BSc in Computer Science & Engineering (CSE)",
+    "school": "Ahsanullah University of Science and Technology (AUST)",
+    "location": "Dhaka, Bangladesh",
+    "date": "2025-01-01",
+    "endDate": "2025-12-01",
+    "priority": 10,
+    "cgpa": "3.32 / 4.00",
+    "details": [
+      "CGPA: 3.32 / 4.00",
+      "Focus: Machine Learning, Computer Vision, Edge AI",
+      "Capstone Project: Smart Trash Bin (TFLite + Edge Benchmarking)"
+    ]
+  },
+  {
+    "degree": "Higher Secondary Certificate (HSC)",
+    "school": "Chittagong College",
+    "location": "Chattogram, Bangladesh",
+    "date": "2020-01-01",
+    "endDate": "2020-12-01",
+    "priority": 6,
+    "gpa": "5.00 / 5.00",
+    "details": [
+      "GPA: 5.00 / 5.00",
+      "Science Background"
+    ]
+  },
+  {
+    "degree": "Secondary School Certificate (SSC)",
+    "school": "Saint Placid’s High School",
+    "location": "Chattogram, Bangladesh",
+    "date": "2018-01-01",
+    "endDate": "2018-12-01",
+    "priority": 4,
+    "gpa": "5.00 / 5.00",
+    "details": [
+      "GPA: 5.00 / 5.00"
+    ]
+  }
+]
