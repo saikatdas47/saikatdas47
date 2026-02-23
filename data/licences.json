@@ -88,5 +88,15 @@
     "credentialUrl": "https://courses.opencv.org/certificates/7ecabf0f69714e09ad7af524e9f58759",
     "description": "",
     "image": "assets/licences/opencvv.png"
+  },
+    {
+    "title": "Python For Beginners",
+    "issuer": "OpenCV University",
+    "issueDate": "2025-12-23",
+    "credentialId": "c40fb32dd55e4015b98d496090fed928",
+    "credentialUrl": "https://courses.opencv.org/certificates/c40fb32dd55e4015b98d496090fed928",
+    "description": "",
+    "image": "assets/licences/Pythonopencvv.png"
   }
+
 ]
