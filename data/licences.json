@@ -81,7 +81,7 @@
     "image": "assets/licences/Professional Machine Learning Engineer Study Guide.png"
   },
    {
-    "title": "FREE Vision Language Models (VLM) Bootcamp",
+    "title": "Vision Language Models (VLM) Bootcamp",
     "issuer": "OpenCV University",
     "issueDate": "2026-02-23",
     "credentialId": "7ecabf0f69714e09ad7af524e9f58759",
@@ -97,6 +97,14 @@
     "credentialUrl": "https://courses.opencv.org/certificates/c40fb32dd55e4015b98d496090fed928",
     "description": "",
     "image": "assets/licences/Pythonopencvv.png"
+  },
+    {
+    "title": "TensorFlow-Keras Bootcamp",
+    "issuer": "OpenCV University",
+    "issueDate": "2025-12-23",
+    "credentialId": "6b6102d4cce04df399e149644f925ef5",
+    "credentialUrl": "https://courses.opencv.org/certificates/6b6102d4cce04df399e149644f925ef5",
+    "description": "",
+    "image": "assets/licences/TensorFlowKerasBootcamp.png"
   }
-
 ]
