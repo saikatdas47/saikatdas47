@@ -101,10 +101,19 @@
     {
     "title": "TensorFlow-Keras Bootcamp",
     "issuer": "OpenCV University",
-    "issueDate": "2025-12-23",
+    "issueDate": "2026-12-23",
     "credentialId": "6b6102d4cce04df399e149644f925ef5",
     "credentialUrl": "https://courses.opencv.org/certificates/6b6102d4cce04df399e149644f925ef5",
     "description": "",
     "image": "assets/licences/TensorFlowKerasBootcamp.png"
-  }
+  },
+    {
+      "title": "PyTorch Bootcamp",
+      "issuer": "OpenCV University",
+      "issueDate": "2026-12-23",
+      "credentialId": "3beaeebbbc67468cafb37fbb382b97a8",
+      "credentialUrl": "https://courses.opencv.org/certificates/3beaeebbbc67468cafb37fbb382b97a8",
+      "description": "",
+      "image": "assets/licences/PyTorchBootcamp.png"
+    }
 ]
