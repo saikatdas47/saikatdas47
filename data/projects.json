@@ -23,7 +23,7 @@
     "name": "SmartWasteBin — Edge AI, IoT, CNN, Blockchain",
     "description": "Edge AI waste classification system using CNN models, blockchain-based immutable logging, Firebase cloud sync, and IoT integration for real-time analytics.",
     "tags": ["Edge AI", "CNN", "Blockchain", "IoT", "Firebase", "Raspberry Pi"],
-    "repo": "https://github.com/saikatdas47/SmartWasteBin-IOT_CNN_BlockChain_EdgeAI_Firebase",
+    "repo": "https://github.com/saikatdas47/A-Deployment-Oriented-Edge-AI-Framework-for-Real-Time-Waste-Classification",
     "demo": "",
     "image": "assets/projectImage/smartwastebin.jpg",
     "date": "2025-09-01",
