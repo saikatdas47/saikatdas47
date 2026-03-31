@@ -1,4 +1,4 @@
-// [
+//[
 //   {
 //     "title": "Efficient Waste Classification on Edge Devices using TFLite",
 //     "venue": "Preprint / Under Review",
@@ -44,3 +44,41 @@
 //     "notes": "Highest priority item for homepage display."
 //   }
 // ]
+
+
+
+[
+  {
+    "title": "Attention-Guided Lightweight Plant Disease Classification with Severity-Aware Evaluation and Explainable Analysis",
+    "venue": "Under Review",
+    "year": "2026",
+    "authors": "Saikat Das",
+    "date": "2026-03-31",
+    "priority": 10,
+    "paperUrl": "",
+    "codeUrl": "https://github.com/saikatdas47/AGL_PlantDiseaseClassification_SeverityAwareEvaluation_ExplainableAnalysis",
+    "notes": "Under review. Lightweight plant disease classification with severity-aware evaluation, attention mechanisms, and explainable analysis."
+  },
+  {
+    "title": "Hardware-Aware CNN Deployment for Waste Classification: Quantization–Architecture Trade-offs on Edge Devices",
+    "venue": "Under Review",
+    "year": "2026",
+    "authors": "Saikat Das",
+    "date": "2026-03-31",
+    "priority": 9,
+    "paperUrl": "",
+    "codeUrl": "https://github.com/saikatdas47/edge-waste-cnn-quantization/tree/main",
+    "notes": "Under review. Focuses on quantization-aware edge deployment and architecture trade-offs for waste classification."
+  },
+  {
+    "title": "A Deployment-Oriented Edge-AI Framework for Real-Time Waste Classification with Biometric Authentication and Secure Logging",
+    "venue": "Under Review",
+    "year": "2026",
+    "authors": "Saikat Das",
+    "date": "2026-03-31",
+    "priority": 8,
+    "paperUrl": "",
+    "codeUrl": "https://github.com/saikatdas47/A-Deployment-Oriented-Edge-AI-Framework-for-Real-Time-Waste-Classification",
+    "notes": "Under review. Real-time smart waste classification framework with biometric authentication and secure logging."
+  }
+]
