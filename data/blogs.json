@@ -3,7 +3,7 @@
   {
     "title": "Building Real-Time Chat with MERN + Socket.io",
     "excerpt": "Step-by-step guide to building scalable real-time chat applications using MERN stack.",
-    "image": "assets/blogImage/chat.png",
+    "image": "assets/blogImages/chat.png",
     "link": "https://medium.com/@saikatdasmain47/building-real-time-chat-with-mern-socket-io-b649b13875b4",
     "date": "2026-01-20"
   }
