@@ -1,23 +1,11 @@
 [
-  {
-    "title": "Edge AI Benchmarking on Raspberry Pi",
-    "excerpt": "Benchmarking multiple TFLite models on Raspberry Pi with latency, FPS, RAM and power analysis.",
-    "image": "assets/blogImage/edge-ai.png",
-    "link": "https://medium.com/your-article-link",
-    "date": "2026-02-15"
-  },
+ 
   {
     "title": "Building Real-Time Chat with MERN + Socket.io",
     "excerpt": "Step-by-step guide to building scalable real-time chat applications using MERN stack.",
     "image": "assets/blogImage/chat.png",
-    "link": "https://medium.com/your-chat-article",
+    "link": "https://medium.com/@saikatdasmain47/building-real-time-chat-with-mern-socket-io-b649b13875b4",
     "date": "2026-01-20"
-  },
-  {
-    "title": "Understanding Responsible AI",
-    "excerpt": "Key principles of Responsible AI and how to apply them in real-world ML systems.",
-    "image": "assets/blogImage/ai.png",
-    "link": "https://medium.com/your-ai-article",
-    "date": "2025-12-10"
   }
+ 
 ]
