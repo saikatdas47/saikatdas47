@@ -9,7 +9,9 @@
     { "label": "GitHub", "url": "https://github.com/saikatdas47" },
     { "label": "Code Force", "url": "https://codeforces.com/profile/the_royloard" },
     { "label": "LinkedIn", "url": "https://linkedin.com/in/saikatdas47" },
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=xxxx" }
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=xxxx" },
+    {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Saikat-Das-xxxx" },
+    {"label": "ORCID", "url": "https://orcid.org/0000-0002-xxxx-xxxx" }
   ],
 
   "contact": {
