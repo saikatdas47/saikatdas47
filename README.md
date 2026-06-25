@@ -1,112 +1,134 @@
-# Hi, I'm Saikat Das 👋
-Computer Science graduate passionate about **AI research, Edge AI, backend systems, data engineering, and applied machine learning**. I enjoy building practical systems that combine software, data, and intelligent automation.
+Hi, I’m Saikat Das 👋
 
-## About Me
+Computer Science graduate passionate about AI research, Edge AI, backend systems, data engineering, and applied machine learning. I enjoy building practical systems that combine software, data, and intelligent automation.
 
-- 🎓 B.Sc. in Computer Science and Engineering, Ahsanullah University of Science and Technology (AUST)
-- 💡 Interested in **AI/ML/DL, backend development, IoT systems, data pipelines, and intelligent real-world applications**
-- 🧠 Strong interest in **problem solving, algorithms, system design, and research-driven development**
-- 🌱 Currently exploring deeper work in **edge intelligence, deployment-efficient deep learning, and scalable backend systems**
-- 📍 Based in Bangladesh
+About Me
 
-## Research Interests
+* 🎓 B.Sc. in Computer Science and Engineering, Ahsanullah University of Science and Technology (AUST)
+* 💡 Interested in AI/ML/DL, backend development, IoT systems, data pipelines, and intelligent real-world applications
+* 🧠 Strong interest in problem solving, algorithms, system design, and research-driven development
+* 🌱 Currently exploring deeper work in edge intelligence, deployment-efficient deep learning, and scalable backend systems
+* 📍 Based in Bangladesh
 
-- Edge AI and TinyML
-- Deep Learning for real-world applications
-- Computer Vision
-- AI for smart systems and automation
-- IoT-enabled intelligent systems
-- Secure and trustworthy AI systems
-- Data engineering and analytical pipelines
-- Applied machine learning for social and industrial problems
+Research Interests
 
-## Technical Skills
+* Edge AI and TinyML
+* Deep Learning for real-world applications
+* Computer Vision
+* AI for smart systems and automation
+* IoT-enabled intelligent systems
+* Secure and trustworthy AI systems
+* Data engineering and analytical pipelines
+* Applied machine learning for social and industrial problems
 
-### Programming
-- Python
-- C++
-- JavaScript
-- Java (basic)
+Technical Skills
 
-### Backend & Web
-- Node.js
-- Express.js
-- REST APIs
-- MongoDB
-- MySQL
-- Firebase
-- PHP (basic)
-- .NET
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### AI / Data / ML
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- TensorFlow
-- PyTorch
+Programming
 
-### Tools
-- Git
-- GitHub
-- Linux
-- Jupyter Notebook
-- VS Code
-- Docker (basic)
-- AWS / Firebase
+* Python
+* C++
+* JavaScript
+* Java (Basic)
 
-## Selected Projects
+Backend & Web
 
-### SmartWasteBin
-An intelligent waste management system integrating **CNN-based waste classification**, **edge deployment**, **cloud synchronization**, and **secure logging** for monitoring and analytics.
+* Node.js
+* Express.js
+* REST APIs
+* MongoDB
+* MySQL
+* Firebase
+* PHP (Basic)
+* .NET
 
-### PingMe
-A real-time full-stack chat application built with the **MERN stack**, featuring authentication, WebSocket communication, and cloud-based media handling.
+</td>
+<td valign="top" width="50%">
 
-### SentimentSphere
-A sentiment analysis pipeline for e-commerce reviews using **NLP** and **machine learning**, including scraping, preprocessing, and classification.
+AI / Data / ML
 
-### BlogApp
-A backend-focused blog platform with **CRUD operations**, **authentication**, **MVC architecture**, and **cloud deployment**.
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* TensorFlow
+* PyTorch
 
-## What I Like Working On
+Tools
 
-- Research-oriented software projects
-- AI systems that solve practical problems
-- Efficient model deployment
-- Backend architecture and APIs
-- Data processing and analytics
-- Building clean, scalable, and useful systems
+* Git
+* GitHub
+* Linux
+* Jupyter Notebook
+* VS Code
+* Docker (Basic)
+* AWS
+* Firebase
 
-## Achievements
+</td>
+</tr>
+</table>
 
-- Solved **200+ problems** on competitive programming platforms
-- Regularly practiced **data structures and algorithms**
-- Built projects across **AI, backend, full-stack, IoT, and data systems**  [oai_citation:2‡Saikat Das CV.pdf](sediment://file_000000008d5071fa802f5c384c11f213)
+Selected Projects
 
-## Certifications
+SmartWasteBin
 
-- IBM — Introduction to Data Engineering
-- Google Cloud — Responsible AI
-- Google Cloud — Prompt Design in Vertex AI
-- Google Cloud — Introduction to Large Language Models
-- Google Cloud — Introduction to Generative AI  [oai_citation:3‡Saikat Das CV.pdf](sediment://file_000000008d5071fa802f5c384c11f213)
+An intelligent waste management system integrating CNN-based waste classification, edge deployment, cloud synchronization, and secure logging for monitoring and analytics.
 
-## Goals
+PingMe
+
+A real-time full-stack chat application built with the MERN stack, featuring authentication, WebSocket communication, and cloud-based media handling.
+
+SentimentSphere
+
+A sentiment analysis pipeline for e-commerce reviews using NLP and machine learning, including scraping, preprocessing, and classification.
+
+BlogApp
+
+A backend-focused blog platform with CRUD operations, authentication, MVC architecture, and cloud deployment.
+
+What I Like Working On
+
+* Research-oriented software projects
+* AI systems that solve practical problems
+* Efficient model deployment
+* Backend architecture and APIs
+* Data processing and analytics
+* Building clean, scalable, and useful systems
+
+Achievements
+
+* Solved 200+ problems on competitive programming platforms
+* Regularly practiced data structures and algorithms
+* Built projects across AI, backend, full-stack, IoT, and data systems
+
+Certifications
+
+* IBM — Introduction to Data Engineering
+* Google Cloud — Responsible AI
+* Google Cloud — Prompt Design in Vertex AI
+* Google Cloud — Introduction to Large Language Models
+* Google Cloud — Introduction to Generative AI
+
+Goals
 
 I want to contribute to impactful work in:
-- AI research
-- intelligent edge systems
-- scalable backend engineering
-- data-driven software solutions
 
-## Connect With Me
+* AI research
+* Intelligent edge systems
+* Scalable backend engineering
+* Data-driven software solutions
 
-- 📧 Email: saikatdasmain47@gmail.com
-- 💼 LinkedIn
-- 💻 GitHub
-- 🧩 Codeforces
+Connect With Me
 
----
+* 📧 Email: saikatdasmain47@gmail.com
+* 💼 LinkedIn
+* 💻 GitHub
+* 🧩 Codeforces
 
-> I am always interested in meaningful collaboration, research opportunities, and building systems that connect intelligence with practical use.
+⸻
+
+I am always interested in meaningful collaboration, research opportunities, and building systems that connect intelligence with practical use.
