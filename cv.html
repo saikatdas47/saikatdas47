@@ -4,46 +4,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV</title>
+  <title>CV — Saikat Das</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="xp.css" />
 </head>
 
-<body class="bg-slate-950 text-slate-100">
-  <div id="navMount"></div>
+<body class="xp-desktop">
+  <div class="xp-window">
+    <header class="xp-titlebar">
+      <span class="xp-title"><span class="xp-winicon">📜</span> Saikat Das CV.pdf — Adobe Reader</span>
+      <span class="xp-controls">
+        <button class="xp-cb xp-min" title="Minimize" aria-label="Minimize">_</button>
+        <button class="xp-cb xp-max" title="Maximize" aria-label="Maximize">▢</button>
+        <button class="xp-cb xp-close" title="Close" aria-label="Close">✕</button>
+      </span>
+    </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-10">
-    <div class="flex items-end justify-between gap-4">
-      <h1 class="text-3xl font-bold">CV</h1>
+    <nav class="xp-menubar" aria-label="Menu">
+      <span>File</span><span>Edit</span><span>View</span><span>Document</span><span>Tools</span><span>Help</span>
+    </nav>
 
-      <div class="flex gap-2">
-        <a href="Saikat Das CV.pdf" target="_blank" rel="noopener"
-          class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 outline-none hover:bg-white/10">
-          Open
-        </a>
-        <a href="Saikat Das CV.pdf" download
-          class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 outline-none hover:bg-white/10">
-          Download
-        </a>
-      </div>
+    <div class="xp-addressbar">
+      <span class="xp-addr-label">Address</span>
+      <span class="xp-addr-box"><span>📜</span> C:\Documents and Settings\Saikat\My Documents\Saikat Das CV.pdf</span>
+      <span class="xp-go">Go</span>
     </div>
 
-    <section id="cvSection" class="mt-6">
-      <div class="rounded-xl border border-white/10 bg-white/5 p-2 overflow-hidden">
-        <object data="Saikat Das CV.pdf" type="application/pdf"
-          class="w-full rounded-lg" style="height: 85vh;">
-          <div class="p-6 text-slate-300">
-            Your browser can't display the PDF inline.
-            <a href="Saikat Das CV.pdf" class="text-white underline" target="_blank" rel="noopener">
-              Click here to open it
-            </a>.
+    <div class="xp-explorer">
+      <nav id="navMount" class="xp-tasks" aria-label="Task pane"></nav>
+
+      <main class="xp-content">
+        <div class="flex items-end justify-between gap-4 flex-wrap">
+          <div>
+            <p class="xp-kicker">Curriculum Vitae</p>
+            <h1 class="text-3xl font-bold">Saikat Das — CV</h1>
+            <p class="xp-sub mt-2 max-w-2xl">The entire story in one place — meticulously formatted, for those who prefer their evidence bound.</p>
           </div>
-        </object>
-      </div>
-    </section>
-  </main>
+          <p class="flex gap-2">
+            <a href="Saikat Das CV.pdf" target="_blank" rel="noopener" class="xp-button">🔍 Open</a>
+            <a href="Saikat Das CV.pdf" download class="xp-primary">💾 Download</a>
+          </p>
+        </div>
+
+        <section class="mt-6" style="border:1px solid #7f9db9; box-shadow: inset 1px 1px 2px rgba(0,0,0,.15); background:#525659; padding:6px;">
+          <object data="Saikat Das CV.pdf" type="application/pdf" style="width:100%; height:80vh; display:block; background:#fff;">
+            <p class="p-6" style="color:#eee;">
+              Your browser declined to render the PDF inline — a rare display of restraint.
+              <a href="Saikat Das CV.pdf" style="color:#9cf;" target="_blank" rel="noopener">Open it here</a> instead.
+            </p>
+          </object>
+        </section>
+      </main>
+    </div>
+  </div>
 
   <script src="js/nav.js"></script>
-  <script src="js/list.js"></script>
 </body>
 
 </html>

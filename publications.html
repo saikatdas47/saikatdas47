@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications</title>
+  <title>Publications — Saikat Das</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="xp.css" />
 </head>
 
-<body class="bg-slate-950 text-slate-100">
-  <div id="navMount"></div>
+<body class="xp-desktop">
+  <div class="xp-window">
+    <header class="xp-titlebar">
+      <span class="xp-title"><span class="xp-winicon">📄</span> Publications — Saikat Das</span>
+      <span class="xp-controls">
+        <button class="xp-cb xp-min" title="Minimize" aria-label="Minimize">_</button>
+        <button class="xp-cb xp-max" title="Maximize" aria-label="Maximize">▢</button>
+        <button class="xp-cb xp-close" title="Close" aria-label="Close">✕</button>
+      </span>
+    </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-10">
- <div class="flex items-end justify-between gap-4">
-  <div>
-    <h1 class="text-3xl font-bold">Publications</h1>
+    <nav class="xp-menubar" aria-label="Menu">
+      <span>File</span><span>Edit</span><span>View</span><span>Favorites</span><span>Tools</span><span>Help</span>
+    </nav>
+
+    <div class="xp-addressbar">
+      <span class="xp-addr-label">Address</span>
+      <span class="xp-addr-box"><span>📄</span> http://saikatdas/publications.html</span>
+      <span class="xp-go">Go</span>
+    </div>
+
+    <div class="xp-explorer">
+      <nav id="navMount" class="xp-tasks" aria-label="Task pane"></nav>
+
+      <main class="xp-content">
+        <p class="xp-kicker">Research</p>
+        <h1 class="text-3xl font-bold">Publications</h1>
+        <p class="xp-sub mt-2 max-w-2xl">Peer-reviewed — the polite term for strangers double-checking my work.</p>
+
+        <section id="publicationsSection" class="mt-6">
+          <div class="flex items-center justify-end">
+            <select id="sortMode">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+            </select>
+          </div>
+          <div id="publicationsGrid" class="mt-5 grid gap-4"></div>
+          <p id="emptyPublications" class="hidden mt-6 rounded-xl border border-white/10 bg-white/5 p-6 text-slate-300">
+            No publications to show.
+          </p>
+        </section>
+      </main>
+    </div>
   </div>
-
-  <select id="sortMode"
-    class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 outline-none">
-    <option value="newest">Newest first</option>
-    <option value="oldest">Oldest first</option>
-  </select>
-</div>
-
-    <section id="publicationsSection" class="mt-8">
-      <div id="publicationsGrid" class="grid gap-4"></div>
-
-      <div id="emptyPublications"
-        class="hidden mt-6 rounded-3xl border border-white/10 bg-white/5 p-6 text-slate-300">
-        No publications to show.
-      </div>
-    </section>
-  </main>
 
   <script src="js/nav.js"></script>
   <script src="js/list.js"></script>
   <script src="js/publications.js"></script>
 </body>
+
 </html>
