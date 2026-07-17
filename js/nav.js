@@ -17,6 +17,7 @@
         <a href="publications.html" class="hover:text-white transition">Publications</a>
         <a href="licences.html" class="hover:text-white transition">Certificates</a>
         <a href="blogs.html" class="hover:text-white transition">Blogs</a>
+        <a href="cv.html" class="hover:text-white transition">CV</a>
       </nav>
 
       <!-- Mobile Button -->
@@ -37,6 +38,7 @@
         <a href="publications.html" class="block hover:text-white transition">Publications</a>
         <a href="licences.html" class="block hover:text-white transition">Certificates</a>
         <a href="blogs.html" class="block hover:text-white transition">Blogs</a>
+        <a href="cv.html" class="block hover:text-white transition">CV</a>
     </div>
   </header>
   `;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+  <div id="navMount"></div>
+
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex items-end justify-between gap-4">
+      <h1 class="text-3xl font-bold">CV</h1>
+
+      <div class="flex gap-2">
+        <a href="Saikat Das CV.pdf" target="_blank" rel="noopener"
+          class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 outline-none hover:bg-white/10">
+          Open
+        </a>
+        <a href="Saikat Das CV.pdf" download
+          class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 outline-none hover:bg-white/10">
+          Download
+        </a>
+      </div>
+    </div>
+
+    <section id="cvSection" class="mt-6">
+      <div class="rounded-xl border border-white/10 bg-white/5 p-2 overflow-hidden">
+        <object data="Saikat Das CV.pdf" type="application/pdf"
+          class="w-full rounded-lg" style="height: 85vh;">
+          <div class="p-6 text-slate-300">
+            Your browser can't display the PDF inline.
+            <a href="Saikat Das CV.pdf" class="text-white underline" target="_blank" rel="noopener">
+              Click here to open it
+            </a>.
+          </div>
+        </object>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/nav.js"></script>
+  <script src="js/list.js"></script>
+</body>
+
+</html>
