@@ -1,0 +1,112 @@
+[
+  {
+    "id": "e06985a5-6023-4402-9e87-0c6c4549aadb",
+    "category": "home",
+    "action": "updated",
+    "sourceId": "547668f6-81ea-49c4-bf17-e7240cb1835c",
+    "title": "Portfolio profile updated",
+    "summary": "Saikat refreshed his portfolio profile with the latest information.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T18:44:28.958Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "0d01b6b2-6f64-4718-8ff7-b326cab78fb9",
+    "category": "experience",
+    "action": "created",
+    "sourceId": "2b31c00c-ae97-4640-a5a4-d091c172456a",
+    "title": "Research role at ELITE RESEARCH LAB",
+    "summary": "Saikat is working remotely as a Research Intern, focusing on computer vision, LLMs, VLMs, AI/ML research, LLM/NLP and paper analysis.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:30:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "7769c4ee-af0a-4a11-b7cb-5c0c30295f9f",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "afa7276f-bcad-4afd-849f-062d0101e4c6",
+    "title": "SmartWasteBin project added",
+    "summary": "Saikat added SmartWasteBin, an Edge AI waste-classification project combining CNN models, IoT, Firebase and secure logging.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:29:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "42bb8385-5587-49d8-8290-bff47a70a751",
+    "category": "publications",
+    "action": "created",
+    "sourceId": "82ec3c7b-3a7f-406c-920d-c6a7d8dfffa5",
+    "title": "Plant-disease research added",
+    "summary": "Saikat added his under-review work on lightweight plant-disease classification, severity-aware evaluation and explainable analysis.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:28:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "660009e4-fcb4-4119-b254-311a706a553a",
+    "category": "licences",
+    "action": "created",
+    "sourceId": "cade9658-ad0f-4ea9-b59c-d9a5b9c5c2ce",
+    "title": "Data Engineering credential added",
+    "summary": "Saikat added his Introduction to Data Engineering credential with its issuer information and verification evidence.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:27:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "4a795f5d-8fd1-48da-a40d-b44b9def9de8",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "64d26bc5-f973-4ec9-a4ef-f32e0ef85290",
+    "title": "PingMe project added",
+    "summary": "Saikat added PingMe, a MERN real-time chat application with JWT authentication, Socket.io messaging and Cloudinary uploads.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:26:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "b8a37ec6-b038-43df-9c10-14062fd8cc0f",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "f8fe9135-ca87-497d-acc8-7c02eb1e6c87",
+    "title": "BlogApp project added",
+    "summary": "Saikat added BlogApp, a backend-focused application featuring CRUD, MVC architecture, protected routes and AWS deployment.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:25:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "a3bb8d51-291c-4808-9656-1ba1bd567625",
+    "category": "publications",
+    "action": "created",
+    "sourceId": "0d726315-92a8-4375-bc71-92304a855354",
+    "title": "Hardware-aware CNN research added",
+    "summary": "Saikat added his under-review research on quantization and architecture trade-offs for waste-classification models on edge devices.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:24:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "d936737a-1915-4fa6-9dc5-a4d04176c247",
+    "category": "publications",
+    "action": "created",
+    "sourceId": "fb8951bb-23e4-42e3-95ec-6b3667de3dfc",
+    "title": "Secure Edge-AI framework research added",
+    "summary": "Saikat added his under-review deployment-oriented research combining real-time waste classification, biometric authentication and secure logging.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:23:00Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "849247e5-7064-4170-822a-319fe95a9e95",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "55313890-edd9-45ff-b347-9ffef9e029f8",
+    "title": "SentimentSphere project added",
+    "summary": "Saikat added SentimentSphere, a sentiment-analysis pipeline using logistic regression, NLP, web scraping and evaluation metrics.",
+    "date": "2026-09-15",
+    "createdAt": "2026-09-15T17:22:00Z",
+    "aiGenerated": false
+  }
+]

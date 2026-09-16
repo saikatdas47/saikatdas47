@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio Admin</title>
+  <link rel="stylesheet" href="app.css?v=3">
+</head>
+<body>
+  <header class="topbar">
+    <div><p class="eyebrow">LOCAL PORTFOLIO CMS</p><h1>Content administration</h1><p>Form-based management for the static website data.</p></div>
+    <div class="header-actions"><a class="portfolio-link" href="/portfolio/" target="_blank" rel="noreferrer">Open portfolio ↗</a><div class="server-state"><span></span> Local server</div></div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar">
+      <h2>Data sections</h2>
+      <nav id="sections"></nav>
+      <div class="storage-note"><strong>Storage</strong><br>JSON, images and documents are saved under <code>../data/</code>.</div>
+    </aside>
+    <main>
+      <section class="page-head">
+        <div><p id="modelShape" class="pill"></p><h2 id="modelTitle">Loading…</h2><p id="modelDescription"></p></div>
+        <button id="newButton" class="button primary" type="button">+ Add new</button>
+      </section>
+      <section id="dashboard" class="stats"></section>
+      <section class="toolbar">
+        <label class="search"><span>Search</span><input id="searchInput" type="search" placeholder="Search saved data…"></label>
+        <label><span>Sort by</span><select id="sortSelect"><option value="updatedAt">Last updated</option><option value="createdAt">Created time</option><option value="sortOrder">Manual order</option><option value="priority">Priority</option><option value="date">Content date</option><option value="title">Title / name</option></select></label>
+        <label><span>Direction</span><select id="directionSelect"><option value="desc">Descending</option><option value="asc">Ascending</option></select></label>
+      </section>
+      <section id="recordList" class="record-list"></section>
+    </main>
+  </div>
+
+  <dialog id="editorDialog">
+    <form id="editorForm">
+      <header class="dialog-head"><div><p class="eyebrow">CONTENT FORM</p><h2 id="formTitle">Add record</h2></div><button id="closeButton" class="icon-button" type="button" aria-label="Close">×</button></header>
+      <div id="formFields" class="form-grid"></div>
+      <div id="formMessage" class="form-message" role="status"></div>
+      <footer><button id="cancelButton" class="button secondary" type="button">Cancel</button><button id="saveButton" class="button primary" type="submit">Save data</button></footer>
+    </form>
+  </dialog>
+  <script src="app.js?v=4"></script>
+</body>
+</html>

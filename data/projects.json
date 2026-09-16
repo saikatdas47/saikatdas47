@@ -2,91 +2,168 @@
   {
     "name": "PingMe – Real-Time Chat Application",
     "description": "Full-stack MERN real-time chat application with JWT authentication, WebSockets (Socket.io), image uploads (Cloudinary), and scalable deployment.",
-    "tags": ["MERN", "Node.js", "React", "MongoDB", "Socket.io", "JWT", "Tailwind"],
+    "tags": [
+      "MERN",
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Socket.io",
+      "JWT",
+      "Tailwind"
+    ],
     "repo": "https://github.com/saikatdas47/PingMe",
     "demo": "",
-    "image": "assets/projectImage/pingme.png",
+    "image": "data/assets/projects/pingme.png",
     "date": "2026-01-01",
-    "priority": 10
+    "priority": 10,
+    "id": "64d26bc5-f973-4ec9-a4ef-f32e0ef85290",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
   {
     "name": "BlogApp",
     "description": "Backend-focused blog application implementing full CRUD, MVC architecture, authentication middleware, protected routes, and AWS deployment with MongoDB Atlas.",
-    "tags": ["Node.js", "Express", "MongoDB Atlas", "AWS", "EJS", "MVC"],
+    "tags": [
+      "Node.js",
+      "Express",
+      "MongoDB Atlas",
+      "AWS",
+      "EJS",
+      "MVC"
+    ],
     "repo": "https://github.com/saikatdas47/BlogApp",
     "demo": "",
-    "image": "assets/projectImage/blogapp.png",
+    "image": "data/assets/projects/blogapp.png",
     "date": "2026-01-01",
-    "priority": 9
+    "priority": 9,
+    "id": "f8fe9135-ca87-497d-acc8-7c02eb1e6c87",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
   {
     "name": "SmartWasteBin — Edge AI, IoT, CNN, Blockchain",
     "description": "Edge AI waste classification system using CNN models, blockchain-based immutable logging, Firebase cloud sync, and IoT integration for real-time analytics.",
-    "tags": ["Edge AI", "CNN", "Blockchain", "IoT", "Firebase", "Raspberry Pi"],
+    "tags": [
+      "Edge AI",
+      "CNN",
+      "Blockchain",
+      "IoT",
+      "Firebase",
+      "Raspberry Pi"
+    ],
     "repo": "https://github.com/saikatdas47/A-Deployment-Oriented-Edge-AI-Framework-for-Real-Time-Waste-Classification",
     "demo": "",
-    "image": "assets/projectImage/smartwastebin.jpg",
+    "image": "data/assets/projects/smartwastebin.jpg",
     "date": "2025-09-01",
-    "priority": 10
+    "priority": 10,
+    "id": "afa7276f-bcad-4afd-849f-062d0101e4c6",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
   {
     "name": "SentimentSphere — Sentiment Analysis System",
     "description": "Large-scale sentiment analysis pipeline using Logistic Regression and NLP techniques with web scraping and full evaluation metrics.",
-    "tags": ["Machine Learning", "NLP", "Logistic Regression", "Web Scraping", "BeautifulSoup"],
+    "tags": [
+      "Machine Learning",
+      "NLP",
+      "Logistic Regression",
+      "Web Scraping",
+      "BeautifulSoup"
+    ],
     "repo": "https://github.com/saikatdas47/SentimentSphere_MachineLearningProject_WithWebScraping",
     "demo": "",
-    "image": "assets/projectImage/sentiment.png",
+    "image": "data/assets/projects/sentiment.png",
     "date": "2025-04-01",
-    "priority": 8
+    "priority": 8,
+    "id": "55313890-edd9-45ff-b347-9ffef9e029f8",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
   {
     "name": "Paira-A — Messenger Application",
     "description": "Real-time chat application using Java Socket Programming and Firebase backend with media sharing and secure authentication.",
-    "tags": ["Java", "Socket Programming", "Firebase", "Real-time"],
+    "tags": [
+      "Java",
+      "Socket Programming",
+      "Firebase",
+      "Real-time"
+    ],
     "repo": "https://github.com/saikatdas47/Paira-AMassenger",
     "demo": "",
-    "image": "assets/projectImage/paira.png",
+    "image": "data/assets/projects/paira.png",
     "date": "2025-01-01",
-    "priority": 7
+    "priority": 7,
+    "id": "1e1fa4f7-c068-4a29-a152-4f8bc2173566",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
   {
     "name": "Hotel Management System",
     "description": "Dynamic hotel booking platform using PHP and MySQL with secure authentication and reservation management.",
-    "tags": ["PHP", "MySQL", "Bootstrap", "Web Development"],
+    "tags": [
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "Web Development"
+    ],
     "repo": "https://github.com/saikatdas47/HotelManagementSystem-DynamicWebsite",
     "demo": "",
-    "image": "assets/projectImage/hotel.png",
+    "image": "data/assets/projects/hotel.png",
     "date": "2024-07-01",
-    "priority": 6
+    "priority": 6,
+    "id": "2f07233d-5645-436b-95ee-92aaa0679440",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
-    {
+  {
     "name": "iGraphics_Project",
     "description": "It is a game. Which is developed by Using the iGraphics library. And here C++ language is Used.",
-    "tags": ["C++", "iGraphics", "Game Development"],
+    "tags": [
+      "C++",
+      "iGraphics",
+      "Game Development"
+    ],
     "repo": "https://github.com/saikatdas47/iGraphics_Project",
     "demo": "",
-    "image": "assets/projectImage/igraphics.png",
+    "image": "data/assets/projects/igraphics.png",
     "date": "2022-12-09",
-    "priority": 6
+    "priority": 6,
+    "id": "a10e3441-47ef-4bf7-a584-7c6031c4acb5",
+    "createdAt": "2026-09-15T12:59:14.485Z",
+    "updatedAt": "2026-09-15T12:59:14.485Z"
   },
-    {
+  {
     "name": "TodoApp",
     "description": "A simple and efficient todo application built with modern web technologies.",
-    "tags": ["JAVA", "CSS", "APP Development"],
+    "tags": [
+      "JAVA",
+      "CSS",
+      "APP Development"
+    ],
     "repo": "https://github.com/saikatdas47/TodoApp",
     "demo": "",
-    "image": "assets/projectImage/todoapp.png",
+    "image": "data/assets/projects/todoapp.png",
     "date": "2023-01-12",
-    "priority": 6
+    "priority": 6,
+    "id": "1179df1a-352e-4ac6-bbfc-d4a518f21e5a",
+    "createdAt": "2026-09-15T12:59:14.486Z",
+    "updatedAt": "2026-09-15T12:59:14.486Z"
   },
-    {
+  {
     "name": "2DGame_RGP",
     "description": "A 2D game developed using Java and the RGP (Rapid Game Programming) framework.",
-    "tags": ["JAVA", "Game Development", "RGP"],
+    "tags": [
+      "JAVA",
+      "Game Development",
+      "RGP"
+    ],
     "repo": "https://github.com/saikatdas47/2DGame_RGP",
     "demo": "",
-    "image": "assets/projectImage/2dgame.png",
+    "image": "data/assets/projects/2dgame.png",
     "date": "2023-04-23",
-    "priority": 6
+    "priority": 6,
+    "id": "3dbe83a0-38ef-44ab-993e-556097d53211",
+    "createdAt": "2026-09-15T12:59:14.486Z",
+    "updatedAt": "2026-09-15T12:59:14.486Z"
   }
 ]

@@ -10,7 +10,10 @@
     "details": [
       "CGPA: 3.32 / 4.00",
       "Focus: Machine Learning, Computer Vision, Edge AI, Data Science, NLP"
-    ]
+    ],
+    "id": "73d26645-5d03-404c-bfde-cfb43c513142",
+    "createdAt": "2026-09-15T12:59:14.488Z",
+    "updatedAt": "2026-09-15T12:59:14.488Z"
   },
   {
     "degree": "Higher Secondary Certificate (HSC)",
@@ -23,7 +26,10 @@
     "details": [
       "GPA: 5.00 / 5.00",
       "Science Background"
-    ]
+    ],
+    "id": "14392731-b209-4f11-9345-e1f1748d3a0f",
+    "createdAt": "2026-09-15T12:59:14.488Z",
+    "updatedAt": "2026-09-15T12:59:14.488Z"
   },
   {
     "degree": "Secondary School Certificate (SSC)",
@@ -35,6 +41,9 @@
     "gpa": "5.00 / 5.00",
     "details": [
       "GPA: 5.00 / 5.00"
-    ]
+    ],
+    "id": "d151811c-3548-475b-bc1b-e81330134fc6",
+    "createdAt": "2026-09-15T12:59:14.488Z",
+    "updatedAt": "2026-09-15T12:59:14.488Z"
   }
 ]

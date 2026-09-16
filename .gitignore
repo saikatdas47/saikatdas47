@@ -1,0 +1,4 @@
+.DS_Store
+admin/.backups/
+admin/.env
+node_modules/

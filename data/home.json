@@ -1,26 +1,45 @@
 {
   "name": "Saikat Das",
   "title": "Python | ML | Backend | Node.js | Data Science | Edge AI | Computer Vision",
-  "location": "Chattogram, Bangladesh",
-  
-  "profileImage": "assets/dp3.jpeg",
-
+  "location": "Chittagong, Bangladesh",
+  "profileImage": "data/assets/profile/dp3.jpeg",
+  "resumePdf": "data/assets/documents/Saikat Das CV.pdf",
+  "industryCvPdf": "data/assets/documents/Saikat Das CV.pdf",
+  "academicCvPdf": "",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/saikatdas47" },
-    { "label": "Code Force", "url": "https://codeforces.com/profile/the_royloard" },
-    { "label": "LinkedIn", "url": "https://linkedin.com/in/saikatdas47" },
-    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=xxxx" },
-    {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Saikat-Das-xxxx" },
-    {"label": "ORCID", "url": "https://orcid.org/my-orcid?orcid=0009-0006-5378-7777" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/saikatdas47"
+    },
+    {
+      "label": "Code Force",
+      "url": "https://codeforces.com/profile/the_royloard"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/saikatdas47"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=xxxx"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Saikat-Das-xxxx"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/my-orcid?orcid=0009-0006-5378-7777"
+    }
   ],
-
   "contact": {
     "phone": "+8801790070535",
     "email": "saikatdasmain47@gmail.com"
-   
   },
-
-  "about":"I am Saikat Das, a Computer Science & Engineering student at Ahsanullah University of Science and Technology (AUST). I am passionate about AI, Machine Learning, NLP, and Data Science, with hands-on experience in backend development using Node.js and .NET. I enjoy building scalable, data-driven systems and contributing to projects that solve real-world problems. Always open to collaboration and learning from like-minded professionals.",
+  "contactEmail": "saikatdasmain47@gmail.com",
+  "contactPhone": "+8801790070535",
+  "about": "I am Saikat Das, a Computer Science & Engineering student at Ahsanullah University of Science and Technology (AUST). I am passionate about AI, Machine Learning, NLP, and Data Science, with hands-on experience in backend development using Node.js and .NET. I enjoy building scalable, data-driven systems and contributing to projects that solve real-world problems. Always open to collaboration and learning from like-minded professionals.",
+  "currentFocus": "Useful systems, trustworthy AI",
   "skills": [
     "Python",
     "TensorFlow",
@@ -43,5 +62,8 @@
     "Edge AI",
     "Machine Learning",
     "Backend Development"
-  ]
+  ],
+  "id": "547668f6-81ea-49c4-bf17-e7240cb1835c",
+  "createdAt": "2026-09-15T12:59:14.481Z",
+  "updatedAt": "2026-09-15T13:36:36.628Z"
 }

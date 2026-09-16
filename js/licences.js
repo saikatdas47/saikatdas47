@@ -35,13 +35,13 @@
             "w-full rounded-2xl border border-white/10 bg-black/20 overflow-hidden";
 
         const img = document.createElement("img");
-        img.src = x.image || "assets/licences/default.png";
+        img.src = x.image || "data/assets/licences/default.png";
         img.alt = `${x.issuer || "Certificate"} logo`;
         img.className = "w-full h-auto object-contain";
 
         img.onerror = () => {
             img.onerror = null;
-            img.src = "assets/licences/default.png";
+            img.src = "data/assets/licences/default.png";
         };
 
         logoBox.appendChild(img);

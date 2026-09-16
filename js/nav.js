@@ -31,7 +31,7 @@
       <div class="xp-group-head"><span>Other Places</span><span class="chev">▾</span></div>
       <div class="xp-group-body">
         <a class="xp-link" href="cv.html"><span class="ico">📄</span><span>My Documents (CV)</span></a>
-        <a class="xp-link" href="Saikat Das CV.pdf" download><span class="ico">💾</span><span>Download CV</span></a>
+        <a class="xp-link" href="data/assets/documents/Saikat Das CV.pdf" download><span class="ico">💾</span><span>Download CV</span></a>
         <a class="xp-link" href="index.html#homeContact"><span class="ico">✉️</span><span>Contact</span></a>
       </div>
     </div>
@@ -73,7 +73,7 @@
     </div>
     <div class="xp-startmenu-body">${startMenuLinks}</div>
     <div class="xp-startmenu-foot">
-      <a href="Saikat Das CV.pdf" download style="color:#fff;text-decoration:none;">💾 Download CV</a>
+      <a href="data/assets/documents/Saikat Das CV.pdf" download style="color:#fff;text-decoration:none;">💾 Download CV</a>
     </div>`;
   document.body.appendChild(menu);
 

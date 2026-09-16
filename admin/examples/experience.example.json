@@ -1,0 +1,13 @@
+[
+  {
+    "role": "Research Assistant (Edge AI)",
+    "company": "University Lab",
+    "location": "Dhaka, Bangladesh",
+    "type": "Part-time",
+    "date": "2026-01-15",
+    "endDate": "",
+    "priority": 10,
+    "details": ["Describe a responsibility or achievement here"],
+    "links": [{ "label": "Repo", "url": "https://github.com/yourname/project" }]
+  }
+]

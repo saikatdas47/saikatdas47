@@ -6,7 +6,10 @@
     "credentialId": "A46MCR637UDD",
     "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/A46MCR637UDD",
     "description": "",
-    "image": "assets/licences/Coursera A46MCR637UDD.png"
+    "image": "data/assets/licences/Coursera A46MCR637UDD.png",
+    "id": "cade9658-ad0f-4ea9-b59c-d9a5b9c5c2ce",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Build a Free Website with WordPress",
@@ -15,7 +18,10 @@
     "credentialId": "LA4HF1L3OL8F",
     "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/LA4HF1L3OL8F",
     "description": "",
-    "image": "assets/licences/Coursera LA4HF1L3OL8F.png"
+    "image": "data/assets/licences/Coursera LA4HF1L3OL8F.png",
+    "id": "efabe1cc-42ae-4686-a53e-449cb85d950c",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Professional Networking for Career Growth",
@@ -24,7 +30,10 @@
     "credentialId": "",
     "credentialUrl": "https://www.life-global.org/course/427-professional-networking-for-career-growth",
     "description": "",
-    "image": "assets/licences/Professional Networking for Career Growth.png"
+    "image": "data/assets/licences/Professional Networking for Career Growth.png",
+    "id": "52d92872-fa4c-43a1-b025-a150828e3d15",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Responsible AI: Applying AI Principles",
@@ -33,7 +42,10 @@
     "credentialId": "21307039",
     "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21307039",
     "description": "",
-    "image": "assets/licences/Responsible AI: Applying AI Principles.png"
+    "image": "data/assets/licences/Responsible AI: Applying AI Principles.png",
+    "id": "a5f24129-4331-444f-8f10-eeab900c6be0",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Prompt Design in Vertex AI",
@@ -42,7 +54,10 @@
     "credentialId": "21300762",
     "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21300762",
     "description": "",
-    "image": "assets/licences/Prompt Design in Vertex AI.png"
+    "image": "data/assets/licences/Prompt Design in Vertex AI.png",
+    "id": "f2a3bc90-d3a3-431f-8317-dd3a0943bf67",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Introduction to Responsible AI",
@@ -51,7 +66,10 @@
     "credentialId": "16841877",
     "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16841877",
     "description": "",
-    "image": "assets/licences/Introduction to Responsible AI.png"
+    "image": "data/assets/licences/Introduction to Responsible AI.png",
+    "id": "0cc8c7a7-f9ca-4bd1-9d0e-4687bb62b3c9",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Introduction to Large Language Models",
@@ -60,7 +78,10 @@
     "credentialId": "16825174",
     "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16825174",
     "description": "",
-    "image": "assets/licences/Introduction to Large Language Models.png"
+    "image": "data/assets/licences/Introduction to Large Language Models.png",
+    "id": "969bf32a-541a-494c-af5e-45cad60b11c3",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Introduction to Generative AI",
@@ -69,7 +90,10 @@
     "credentialId": "16551000",
     "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16551000",
     "description": "",
-    "image": "assets/licences/Introduction to Generative AI.png"
+    "image": "data/assets/licences/Introduction to Generative AI.png",
+    "id": "a7e9619a-1877-4f01-9a23-6a7eef419df0",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
   {
     "title": "Professional Machine Learning Engineer Study Guide",
@@ -78,42 +102,57 @@
     "credentialId": "21328639",
     "credentialUrl": "https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21328639",
     "description": "",
-    "image": "assets/licences/Professional Machine Learning Engineer Study Guide.png"
+    "image": "data/assets/licences/Professional Machine Learning Engineer Study Guide.png",
+    "id": "b7c04474-77b1-4028-964f-37f4f29e0328",
+    "createdAt": "2026-09-15T12:59:14.490Z",
+    "updatedAt": "2026-09-15T12:59:14.490Z"
   },
-   {
+  {
     "title": "Vision Language Models (VLM) Bootcamp",
     "issuer": "OpenCV University",
     "issueDate": "2026-02-23",
     "credentialId": "7ecabf0f69714e09ad7af524e9f58759",
     "credentialUrl": "https://courses.opencv.org/certificates/7ecabf0f69714e09ad7af524e9f58759",
     "description": "",
-    "image": "assets/licences/opencvv.png"
+    "image": "data/assets/licences/opencvv.png",
+    "id": "7ba66d2b-432b-4e1a-bfe0-76d851238803",
+    "createdAt": "2026-09-15T12:59:14.491Z",
+    "updatedAt": "2026-09-15T12:59:14.491Z"
   },
-    {
+  {
     "title": "Python For Beginners",
     "issuer": "OpenCV University",
     "issueDate": "2025-12-23",
     "credentialId": "c40fb32dd55e4015b98d496090fed928",
     "credentialUrl": "https://courses.opencv.org/certificates/c40fb32dd55e4015b98d496090fed928",
     "description": "",
-    "image": "assets/licences/Pythonopencvv.png"
+    "image": "data/assets/licences/Pythonopencvv.png",
+    "id": "3e4919fd-7f97-4d92-9820-e4f924dd8ab8",
+    "createdAt": "2026-09-15T12:59:14.491Z",
+    "updatedAt": "2026-09-15T12:59:14.491Z"
   },
-    {
+  {
     "title": "TensorFlow-Keras Bootcamp",
     "issuer": "OpenCV University",
     "issueDate": "2026-12-23",
     "credentialId": "6b6102d4cce04df399e149644f925ef5",
     "credentialUrl": "https://courses.opencv.org/certificates/6b6102d4cce04df399e149644f925ef5",
     "description": "",
-    "image": "assets/licences/TensorFlowKerasBootcamp.png"
+    "image": "data/assets/licences/TensorFlowKerasBootcamp.png",
+    "id": "4022e5f8-40fe-4962-aafd-ac1d852a8456",
+    "createdAt": "2026-09-15T12:59:14.491Z",
+    "updatedAt": "2026-09-15T12:59:14.491Z"
   },
-    {
-      "title": "PyTorch Bootcamp",
-      "issuer": "OpenCV University",
-      "issueDate": "2026-12-23",
-      "credentialId": "3beaeebbbc67468cafb37fbb382b97a8",
-      "credentialUrl": "https://courses.opencv.org/certificates/3beaeebbbc67468cafb37fbb382b97a8",
-      "description": "",
-      "image": "assets/licences/PyTorchBootcamp.png"
-    }
+  {
+    "title": "PyTorch Bootcamp",
+    "issuer": "OpenCV University",
+    "issueDate": "2026-12-23",
+    "credentialId": "3beaeebbbc67468cafb37fbb382b97a8",
+    "credentialUrl": "https://courses.opencv.org/certificates/3beaeebbbc67468cafb37fbb382b97a8",
+    "description": "",
+    "image": "data/assets/licences/PyTorchBootcamp.png",
+    "id": "993336e9-8020-4723-8120-87711c85a5a4",
+    "createdAt": "2026-09-15T12:59:14.491Z",
+    "updatedAt": "2026-09-15T12:59:14.491Z"
+  }
 ]

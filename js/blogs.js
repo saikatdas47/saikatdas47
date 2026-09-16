@@ -25,13 +25,13 @@
       "rounded-2xl border border-white/10 bg-white/5 overflow-hidden hover:bg-white/7 transition";
 
     const img = document.createElement("img");
-    img.src = x.image || "assets/blogImage/default.png";
+    img.src = x.image || "data/assets/blogs/default.png";
     img.alt = x.title || "Blog image";
     img.className = "w-full h-40 object-cover";
 
     img.onerror = () => {
       img.onerror = null;
-      img.src = "assets/blogImage/default.png";
+      img.src = "data/assets/blogs/default.png";
     };
 
     const content = document.createElement("div");

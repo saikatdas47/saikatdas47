@@ -1,62 +1,31 @@
-// [
-//   {
-//     "role": "Research Assistant (Edge AI)",
-//     "company": "University Lab",
-//     "location": "Dhaka, Bangladesh",
-//     "type": "Part-time",
-//     "date": "2026-01-15",
-//     "endDate": "",
-//     "priority": 10,
-//     "details": [
-//       "Built TensorFlow → TFLite export pipelines (FP32/INT8)",
-//       "Benchmarked latency, throughput, CPU/RAM for edge devices",
-//       "Prepared evaluation tables and plots for journal submission"
-//     ],
-//     "links": [
-//       { "label": "Repo", "url": "https://github.com/yourname/project" }
-//     ]
-//   },
-//   {
-//     "role": "Machine Learning Intern",
-//     "company": "Startup X",
-//     "location": "Remote",
-//     "type": "Internship",
-//     "date": "2025-09-01",
-//     "endDate": "2025-12-15",
-//     "priority": 7,
-//     "details": [
-//       "Trained CNN models for 4-class image classification",
-//       "Improved dataset pipeline and augmentation strategy",
-//       "Wrote clean documentation and reproducible experiments"
-//     ],
-//     "links": []
-//   },
-//   {
-//     "role": "Freelance Developer",
-//     "company": "Self-employed",
-//     "location": "Chattogram, Bangladesh",
-//     "type": "Freelance",
-//     "date": "2024-03-01",
-//     "endDate": "2024-12-01",
-//     "priority": 3,
-//     "details": [
-//       "Built web apps with HTML/Tailwind/JS",
-//       "Maintained client code and deployed on GitHub Pages"
-//     ],
-//     "links": []
-//   },
-//   {
-//     "role": "Teaching Assistant (Programming)",
-//     "company": "Campus Club",
-//     "location": "Dhaka, Bangladesh",
-//     "type": "Volunteer",
-//     "date": "2023-05-10",
-//     "endDate": "2023-11-10",
-//     "priority": 5,
-//     "details": [
-//       "Helped juniors with programming basics",
-//       "Reviewed assignments and explained debugging"
-//     ],
-//     "links": []
-//   }
-// ]
+[
+  {
+    "role": "Research Intern",
+    "company": "ELITE RESEARCH LAB",
+    "type": "Research",
+    "location": "Remote",
+    "workMode": "Remote",
+    "date": "2026-10-01",
+    "endDate": "",
+    "current": true,
+    "details": [
+      "Computer vision, LLM, and VLM research.",
+      "AI/ML research, LLM/NLP, and paper analysis."
+    ],
+    "skills": [
+      "Computer Vision",
+      "LLM",
+      "VLM",
+      "AI/ML Research",
+      "LLM/NLP",
+      "Paper Analysis"
+    ],
+    "links": [],
+    "attachment": "",
+    "priority": 10,
+    "sortOrder": 1,
+    "id": "2b31c00c-ae97-4640-a5a4-d091c172456a",
+    "createdAt": "2026-09-15T17:19:15Z",
+    "updatedAt": "2026-09-15T17:19:15Z"
+  }
+]
