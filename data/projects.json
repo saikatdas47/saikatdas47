@@ -184,7 +184,7 @@
     "updatedAt": "2026-09-17T17:11:47.224Z"
   },
   {
-    "name": "CommerceX – an enterprise-grade, multi-vendor e-commerce platform - AI Powered",
+    "name": "CommerceX: Multi-vendor Marketplace [AI powered]",
     "description": "I built CommerceX with a focus on secure workflows, reliable inventory, and seller-aware order management.",
     "details": "What does it take to build a production-ready multi-vendor marketplace API?\n\nI built CommerceX with a focus on secure workflows, reliable inventory, and seller-aware order management.\n\nKey highlights:\n- JWT authentication, role-based access, seller approval, and immutable audit logs\n- Nested categories, product variants, full-text search, and atomic stock control\n- Per-seller order fulfillment with validated state transitions\n- Price snapshots and deadlock-safe checkout\n- Grounded AI assistant connected to live product data, with citation support and graceful fallback\n\nBuilt with Django 5, Django REST Framework, PostgreSQL, Redis, and JWT.\n\nLive: [CommerceX](https://multi-vendor-marketplace-224q.vercel.app)",
     "tags": [
