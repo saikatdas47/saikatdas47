@@ -165,5 +165,41 @@
     "id": "3dbe83a0-38ef-44ab-993e-556097d53211",
     "createdAt": "2026-09-15T12:59:14.486Z",
     "updatedAt": "2026-09-15T12:59:14.486Z"
+  },
+  {
+    "name": "AI-powered-e-commerce-platform",
+    "description": "A full-stack MERN e-commerce platform with built-in AI: personalized recommendations, semantic search, and a virtual shopping assistant.",
+    "details": "",
+    "tags": [],
+    "repo": "https://github.com/saikatdas47/AI-powered-e-commerce-platform",
+    "demo": "",
+    "image": "data/assets/projects/1789665100954-screenshot-2026-09-17-at-11-11-30-pm.png",
+    "date": "",
+    "status": "completed",
+    "featured": false,
+    "priority": 0,
+    "sortOrder": 0,
+    "id": "21756aaa-4da5-4f8e-b2b3-ef4fad2027d7",
+    "createdAt": "2026-09-17T17:11:47.224Z",
+    "updatedAt": "2026-09-17T17:11:47.224Z"
+  },
+  {
+    "name": "CommerceX – an enterprise-grade, multi-vendor e-commerce platform - AI Powered",
+    "description": "I built CommerceX with a focus on secure workflows, reliable inventory, and seller-aware order management.",
+    "details": "What does it take to build a production-ready multi-vendor marketplace API?\n\nI built CommerceX with a focus on secure workflows, reliable inventory, and seller-aware order management.\n\nKey highlights:\n- JWT authentication, role-based access, seller approval, and immutable audit logs\n- Nested categories, product variants, full-text search, and atomic stock control\n- Per-seller order fulfillment with validated state transitions\n- Price snapshots and deadlock-safe checkout\n- Grounded AI assistant connected to live product data, with citation support and graceful fallback\n\nBuilt with Django 5, Django REST Framework, PostgreSQL, Redis, and JWT.\n\nLive: [CommerceX](https://multi-vendor-marketplace-224q.vercel.app)",
+    "tags": [
+      "Django PostgreSQL Redis"
+    ],
+    "repo": "https://github.com/saikatdas47/Multi-vendor-marketplace",
+    "demo": "https://multi-vendor-marketplace-224q.vercel.app",
+    "image": "data/assets/projects/1789665246685-screenshot-2026-09-17-at-11-13-57-pm.png",
+    "date": "",
+    "status": "completed",
+    "featured": false,
+    "priority": 0,
+    "sortOrder": 0,
+    "id": "6ff5c4ed-ab29-47fe-8fca-26f1cdef9e4f",
+    "createdAt": "2026-09-17T17:14:22.363Z",
+    "updatedAt": "2026-09-17T17:14:22.363Z"
   }
 ]

@@ -1,5 +1,38 @@
 [
   {
+    "id": "7cd17d71-0693-4df1-8abf-7cf5adc67855",
+    "category": "cv",
+    "action": "updated",
+    "sourceId": "portfolio-cv",
+    "title": "Curriculum vitae updated",
+    "summary": "Saikat updated Curriculum vitae.",
+    "date": "2026-09-17",
+    "createdAt": "2026-09-17T17:14:54.620Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "9610cae5-8c78-4dd8-8904-ccf230045ca3",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "6ff5c4ed-ab29-47fe-8fca-26f1cdef9e4f",
+    "title": "CommerceX – an enterprise-grade, multi-vendor e-commerce platform - AI Powered added",
+    "summary": "Saikat added a project CommerceX – an enterprise-grade, multi-vendor e-commerce platform - AI Powered.",
+    "date": "2026-09-17",
+    "createdAt": "2026-09-17T17:14:22.370Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "8e3c278d-95f5-4749-b1e6-732c3a931a6f",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "21756aaa-4da5-4f8e-b2b3-ef4fad2027d7",
+    "title": "AI-powered-e-commerce-platform added",
+    "summary": "Saikat added a project AI-powered-e-commerce-platform.",
+    "date": "2026-09-17",
+    "createdAt": "2026-09-17T17:11:47.234Z",
+    "aiGenerated": false
+  },
+  {
     "id": "e06985a5-6023-4402-9e87-0c6c4549aadb",
     "category": "home",
     "action": "updated",
@@ -74,39 +107,6 @@
     "summary": "Saikat added BlogApp, a backend-focused application featuring CRUD, MVC architecture, protected routes and AWS deployment.",
     "date": "2026-09-15",
     "createdAt": "2026-09-15T17:25:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "a3bb8d51-291c-4808-9656-1ba1bd567625",
-    "category": "publications",
-    "action": "created",
-    "sourceId": "0d726315-92a8-4375-bc71-92304a855354",
-    "title": "Hardware-aware CNN research added",
-    "summary": "Saikat added his under-review research on quantization and architecture trade-offs for waste-classification models on edge devices.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:24:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "d936737a-1915-4fa6-9dc5-a4d04176c247",
-    "category": "publications",
-    "action": "created",
-    "sourceId": "fb8951bb-23e4-42e3-95ec-6b3667de3dfc",
-    "title": "Secure Edge-AI framework research added",
-    "summary": "Saikat added his under-review deployment-oriented research combining real-time waste classification, biometric authentication and secure logging.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:23:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "849247e5-7064-4170-822a-319fe95a9e95",
-    "category": "projects",
-    "action": "created",
-    "sourceId": "55313890-edd9-45ff-b347-9ffef9e029f8",
-    "title": "SentimentSphere project added",
-    "summary": "Saikat added SentimentSphere, a sentiment-analysis pipeline using logistic regression, NLP, web scraping and evaluation metrics.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:22:00Z",
     "aiGenerated": false
   }
 ]

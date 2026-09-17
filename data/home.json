@@ -4,8 +4,8 @@
   "location": "Chittagong, Bangladesh",
   "profileImage": "data/assets/profile/dp3.jpeg",
   "resumePdf": "data/assets/documents/Saikat Das CV.pdf",
-  "industryCvPdf": "data/assets/documents/Saikat Das CV.pdf",
-  "academicCvPdf": "",
+  "industryCvPdf": "data/assets/documents/1789665292522-saikat-soft.pdf",
+  "academicCvPdf": "data/assets/documents/1789665285194-saikat-ac.pdf",
   "links": [
     {
       "label": "GitHub",
@@ -65,5 +65,5 @@
   ],
   "id": "547668f6-81ea-49c4-bf17-e7240cb1835c",
   "createdAt": "2026-09-15T12:59:14.481Z",
-  "updatedAt": "2026-09-15T13:36:36.628Z"
+  "updatedAt": "2026-09-17T17:14:54.611Z"
 }
