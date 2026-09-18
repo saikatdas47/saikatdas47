@@ -1,16 +1,176 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Saikat Das — backend engineering, AI/ML research, computer vision and Edge AI portfolio."><title>Saikat Das — Engineering & Research</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css?v=5"></head><body>
-<div class="site-shell"><aside class="rail"><a class="brand" href="#overview"><span>SD</span><strong>Saikat Das</strong></a><button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span><b>Menu</b></button><nav id="siteNav" aria-label="Portfolio pages"><a class="active" href="#overview"><span>01</span>Overview</a><a href="#news"><span>02</span>Recent news</a><a href="#experience"><span>03</span>Experience</a><a href="#projects"><span>04</span>Projects</a><a href="#research"><span>05</span>Research</a><a href="#education"><span>06</span>Education</a><a href="#credentials"><span>07</span>Certificates</a><a href="#cv"><span>08</span>View CV</a><a href="#contact"><span>09</span>Contact</a></nav><button id="chatOpen" class="chat-launch" type="button"><span class="bot-avatar" aria-hidden="true">✦</span><span><strong>Ask Saikat AI</strong><small>Projects & research</small></span></button><p class="rail-foot">Chattogram, Bangladesh<br><em>Open to meaningful work</em></p></aside>
-<main id="mainContent">
-<section id="overview" class="page-section active"><div class="hero section-pad"><div><p class="kicker"><span></span> ENGINEERING × RESEARCH</p><h1 id="heroName">Saikat Das</h1><p id="heroTitle" class="hero-title">Backend engineer and AI/ML researcher.</p><p id="heroAbout" class="hero-about">Loading portfolio data…</p><div id="currentRole" class="current-role"></div><div id="heroLinks" class="action-row"></div></div><div class="portrait-wrap"><div class="portrait-card"><img id="profileImage" alt="Saikat Das"><div><span>Current focus</span><strong id="currentFocusText">Useful systems, trustworthy AI</strong></div></div><b class="orbit one">BACKEND</b><b class="orbit two">EDGE AI</b></div></div><div class="metric-strip"><article><strong id="projectCount">—</strong><span>Selected projects</span></article><article><strong id="publicationCount">—</strong><span>Research works</span></article><article><strong id="credentialCount">—</strong><span>Certificates</span></article><article><strong id="skillCount">—</strong><span>Core skills</span></article></div></section>
-<section id="news" class="page-section content-section section-pad"><header class="section-head"><div><p class="section-index">02 / RECENT NEWS</p><h2>What’s happening now.</h2></div><p>The latest ten updates, connected directly to the work behind them.</p></header><ol id="newsList" class="news-list"></ol></section>
-<section id="experience" class="page-section content-section section-pad"><header class="section-head"><div><p class="section-index">03 / EXPERIENCE</p><h2>Where I’m working now.</h2></div><p>Research and engineering work with responsibilities, focus areas and dates.</p></header><div id="experienceList" class="timeline"></div></section>
-<section id="projects" class="page-section content-section section-pad tinted"><header class="section-head"><div><p class="section-index">04 / PROJECTS</p><h2>Systems I’ve built.</h2></div><p>Backend products, intelligent systems and applied experiments—all searchable.</p></header><div class="project-tools"><div id="projectFilters" class="filters"></div><label class="project-search"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects or technology"></label></div><div id="projectGrid" class="project-grid"></div></section>
-<section id="research" class="page-section content-section section-pad"><header class="section-head"><div><p class="section-index">05 / RESEARCH</p><h2>Research/Publications.</h2></div><p>Published, under-review and ongoing work remain explicitly separated.</p></header><div id="publicationList" class="research-list"></div></section>
-<section id="education" class="page-section content-section section-pad split-section"><div><p class="section-index">06 / EDUCATION</p><h2>Academic foundation.</h2><p class="section-intro">Computer science education focused on practical intelligent systems.</p></div><div id="educationList" class="education-list"></div></section>
-<section id="credentials" class="page-section content-section section-pad tinted"><header class="section-head"><div><p class="section-index">07 / CERTIFICATES</p><h2>Learning you can verify.</h2></div><p>Certificate evidence is visible, readable and linked to its source.</p></header><div id="credentialGrid" class="credential-grid"></div></section>
-<section id="cv" class="page-section content-section section-pad"><header class="section-head"><div><p class="section-index">08 / CURRICULUM VITAE</p><h2>Choose the right CV.</h2></div><p>Two focused versions for industry roles and academic opportunities.</p></header><div id="cvGrid" class="cv-grid"></div></section>
-<section id="contact" class="page-section contact-section section-pad"><div><p class="section-index">09 / CONTACT</p><h2>Let’s build something useful.</h2><p>Available for backend engineering, AI/ML research and thoughtful technical collaboration.</p><div><h3 class="contact-label">Primary contacts</h3><div id="primaryContacts" class="contact-links"></div></div></div><div><h3 class="contact-label">Important links</h3><div id="importantLinks" class="social-links"></div></div></section>
-<footer><span>© <span id="year"></span> Saikat Das</span><button id="footerChat" type="button">Ask Saikat AI ✦</button></footer></main></div>
-<dialog id="chatDialog" class="chat-dialog"><div class="chat-head"><div class="bot-avatar">✦</div><div><strong>Ask Saikat AI</strong><span><i></i> Portfolio-grounded assistant</span></div><button id="chatClose" type="button" aria-label="Close chat">×</button></div><div class="chat-body"><div id="chatMessages" class="chat-messages" aria-live="polite"><div class="chat-bubble bot">Hi! Ask me about Saikat’s projects, research, experience, skills or education.</div></div><div id="chatSuggestions" class="chat-suggestions"><button type="button">What is Saikat working on now?</button><button type="button">Tell me about his research</button><button type="button">Which backend projects has he built?</button></div></div><form id="chatForm" class="chat-form"><label class="sr-only" for="chatInput">Your question</label><input id="chatInput" autocomplete="off" maxlength="500" placeholder="Ask about a project or research…" required><button id="chatSend" type="submit"><span>Send</span><b aria-hidden="true">↑</b></button></form></dialog>
-<dialog id="projectDialog" class="project-dialog" aria-labelledby="projectDialogTitle"><button id="projectClose" class="project-close" type="button" aria-label="Close project details">×</button><div id="projectDialogContent"></div></dialog>
-<script src="js/dashboard.js?v=6"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Saikat Das — backend engineering, AI/ML research, computer vision and Edge AI portfolio.">
+    <title>Saikat Das</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=5">
+</head>
+
+<body>
+    <div class="site-shell">
+        <aside class="rail"><a class="brand" href="#overview"><span>SD</span><strong>Saikat Das</strong></a><button
+                id="menuToggle" class="menu-toggle" type="button" aria-expanded="false"
+                aria-controls="siteNav"><span></span><span></span><span></span><b>Menu</b></button>
+            <nav id="siteNav" aria-label="Portfolio pages"><a class="active"
+                    href="#overview"><span>01</span>Overview</a><a href="#news"><span>02</span>Recent news</a><a
+                    href="#experience"><span>03</span>Experience</a><a href="#projects"><span>04</span>Projects</a><a
+                    href="#research"><span>05</span>Research</a><a href="#education"><span>06</span>Education</a><a
+                    href="#credentials"><span>07</span>Certificates</a><a href="#cv"><span>08</span>View CV</a><a
+                    href="#contact"><span>09</span>Contact</a></nav><button id="chatOpen" class="chat-launch"
+                type="button"><span class="bot-avatar" aria-hidden="true">✦</span><span><strong>Ask Saikat
+                        AI</strong><small>Projects & research</small></span></button>
+            <p class="rail-foot">Chattogram, Bangladesh<br><em>Open to meaningful work</em></p>
+        </aside>
+        <main id="mainContent">
+            <section id="overview" class="page-section active">
+                <div class="hero section-pad">
+                    <div>
+                        <p class="kicker"><span></span> ENGINEERING × RESEARCH</p>
+                        <h1 id="heroName">Saikat Das</h1>
+                        <p id="heroTitle" class="hero-title">Backend engineer and AI/ML researcher.</p>
+                        <p id="heroAbout" class="hero-about">Loading portfolio data…</p>
+                        <div id="currentRole" class="current-role"></div>
+                        <div id="heroLinks" class="action-row"></div>
+                    </div>
+                    <div class="portrait-wrap">
+                        <div class="portrait-card"><img id="profileImage" alt="Saikat Das">
+                            <div><span>Current focus</span><strong id="currentFocusText">Useful systems, trustworthy
+                                    AI</strong></div>
+                        </div><b class="orbit one">BACKEND</b><b class="orbit two">EDGE AI</b>
+                    </div>
+                </div>
+                <div class="metric-strip">
+                    <article><strong id="projectCount">—</strong><span>Selected projects</span></article>
+                    <article><strong id="publicationCount">—</strong><span>Research works</span></article>
+                    <article><strong id="credentialCount">—</strong><span>Certificates</span></article>
+                    <article><strong id="skillCount">—</strong><span>Core skills</span></article>
+                </div>
+            </section>
+            <section id="news" class="page-section content-section section-pad">
+                <header class="section-head">
+                    <div>
+                        <p class="section-index">02 / RECENT NEWS</p>
+                        <h2>What’s happening now.</h2>
+                    </div>
+                    <p>The latest ten updates, connected directly to the work behind them.</p>
+                </header>
+                <ol id="newsList" class="news-list"></ol>
+            </section>
+            <section id="experience" class="page-section content-section section-pad">
+                <header class="section-head">
+                    <div>
+                        <p class="section-index">03 / EXPERIENCE</p>
+                        <h2>Where I’m working now.</h2>
+                    </div>
+                    <p>Research and engineering work with responsibilities, focus areas and dates.</p>
+                </header>
+                <div id="experienceList" class="timeline"></div>
+            </section>
+            <section id="projects" class="page-section content-section section-pad tinted">
+                <header class="section-head">
+                    <div>
+                        <p class="section-index">04 / PROJECTS</p>
+                        <h2>Systems I’ve built.</h2>
+                    </div>
+                    <p>Backend products, intelligent systems and applied experiments—all searchable.</p>
+                </header>
+                <div class="project-tools">
+                    <div id="projectFilters" class="filters"></div><label class="project-search"><span>⌕</span><input
+                            id="projectSearch" type="search" placeholder="Search projects or technology"></label>
+                </div>
+                <div id="projectGrid" class="project-grid"></div>
+            </section>
+            <section id="research" class="page-section content-section section-pad">
+                <header class="section-head">
+                    <div>
+                        <p class="section-index">05 / RESEARCH</p>
+                        <h2>Research/Publications.</h2>
+                    </div>
+                    <p>Published, under-review and ongoing work remain explicitly separated.</p>
+                </header>
+                <div id="publicationList" class="research-list"></div>
+            </section>
+            <section id="education" class="page-section content-section section-pad split-section">
+                <div>
+                    <p class="section-index">06 / EDUCATION</p>
+                    <h2>Academic foundation.</h2>
+                    <p class="section-intro">Computer science education focused on practical intelligent systems.</p>
+                </div>
+                <div id="educationList" class="education-list"></div>
+            </section>
+            <section id="credentials" class="page-section content-section section-pad tinted">
+                <header class="section-head">
+                    <div>
+                        <p class="section-index">07 / CERTIFICATES</p>
+                        <h2>Learning you can verify.</h2>
+                    </div>
+                    <p>Certificate evidence is visible, readable and linked to its source.</p>
+                </header>
+                <div id="credentialGrid" class="credential-grid"></div>
+            </section>
+            <section id="cv" class="page-section content-section section-pad">
+                <header class="section-head">
+                    <div>
+                        <p class="section-index">08 / CURRICULUM VITAE</p>
+                        <h2>Choose the right CV.</h2>
+                    </div>
+                    <p>Two focused versions for industry roles and academic opportunities.</p>
+                </header>
+                <div id="cvGrid" class="cv-grid"></div>
+            </section>
+            <section id="contact" class="page-section contact-section section-pad">
+                <div>
+                    <p class="section-index">09 / CONTACT</p>
+                    <h2>Let’s build something useful.</h2>
+                    <p>Available for backend engineering, AI/ML research and thoughtful technical collaboration.</p>
+                    <div>
+                        <h3 class="contact-label">Primary contacts</h3>
+                        <div id="primaryContacts" class="contact-links"></div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="contact-label">Important links</h3>
+                    <div id="importantLinks" class="social-links"></div>
+                </div>
+            </section>
+            <footer><span>© <span id="year"></span> Saikat Das</span><button id="footerChat" type="button">Ask Saikat AI
+                    ✦</button></footer>
+        </main>
+    </div>
+    <dialog id="chatDialog" class="chat-dialog">
+        <div class="chat-head">
+            <div class="bot-avatar">✦</div>
+            <div><strong>Ask Saikat AI</strong><span><i></i> Portfolio-grounded assistant</span></div><button
+                id="chatClose" type="button" aria-label="Close chat">×</button>
+        </div>
+        <div class="chat-body">
+            <div id="chatMessages" class="chat-messages" aria-live="polite">
+                <div class="chat-bubble bot">Hi! Ask me about Saikat’s projects, research, experience, skills or
+                    education.</div>
+            </div>
+            <div id="chatSuggestions" class="chat-suggestions"><button type="button">What is Saikat working on
+                    now?</button><button type="button">Tell me about his research</button><button type="button">Which
+                    backend projects has he built?</button></div>
+        </div>
+        <form id="chatForm" class="chat-form"><label class="sr-only" for="chatInput">Your question</label><input
+                id="chatInput" autocomplete="off" maxlength="500" placeholder="Ask about a project or research…"
+                required><button id="chatSend" type="submit"><span>Send</span><b aria-hidden="true">↑</b></button>
+        </form>
+    </dialog>
+    <dialog id="projectDialog" class="project-dialog" aria-labelledby="projectDialogTitle"><button id="projectClose"
+            class="project-close" type="button" aria-label="Close project details">×</button>
+        <div id="projectDialogContent"></div>
+    </dialog>
+    <script src="js/dashboard.js?v=6"></script>
+</body>
+
+</html>
