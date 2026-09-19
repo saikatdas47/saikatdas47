@@ -84,7 +84,17 @@ Uploaded files are limited to 12 MB each. Supported types are JPG, PNG, WebP, GI
 
 ## Sorting
 
-The admin list can be searched and sorted by last update, creation time, manual order, priority, content date, or title/name. For the public site, `priority` represents importance and `sortOrder` provides explicit manual ordering.
+The admin list can be searched and sorted by manual sort order, last update, creation time, content date, or title/name. `sortOrder` is the single ordering field throughout the system: a higher value appears before a lower value on the public portfolio.
+
+## Portfolio grouping controls
+
+The public portfolio groups content from three admin checkboxes:
+
+- **Industry-focused project:** checked projects appear under “Industry-focused Projects”; unchecked projects appear under “Undergraduate Projects”.
+- **Ongoing research:** checked research appears under “Ongoing Research”. Uncheck it later to move the item into “Research Works”.
+- **Highlight this certificate:** checked certificates appear under “Highlighted Certificates”; unchecked certificates remain under “Other Certificates”.
+
+These options are saved as normal Boolean values in the corresponding JSON records. IDs and timestamps continue to be generated automatically.
 
 ## Validation and backups
 
@@ -95,6 +105,8 @@ npm run check:data
 ```
 
 Before every create, update, or delete, the previous JSON file is copied to `admin/.backups/`. This backup folder is local and ignored by Git.
+
+Uploaded files are also lifecycle-managed. When a saved CV, image, PDF or other managed upload is replaced, the old file is removed from `data/assets/` after the new JSON is saved. Deleting a record removes its linked uploaded files as well. A file is retained whenever another saved record still references the same path, and paths outside `data/assets/` are never deleted by this cleanup.
 
 ## GitHub publishing workflow
 

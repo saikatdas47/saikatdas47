@@ -1,5 +1,38 @@
 [
   {
+    "id": "2de7c708-45b2-4202-b737-c8109a40793d",
+    "category": "licences",
+    "action": "updated",
+    "sourceId": "969bf32a-541a-494c-af5e-45cad60b11c3",
+    "title": "Introduction to Large Language Models updated",
+    "summary": "Saikat earned a new credential Introduction to Large Language Models at Google Cloud.",
+    "date": "2026-09-19",
+    "createdAt": "2026-09-19T17:54:36.362Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "8292d2a4-4aad-4a7e-aa79-4aed49a7a410",
+    "category": "licences",
+    "action": "updated",
+    "sourceId": "7ba66d2b-432b-4e1a-bfe0-76d851238803",
+    "title": "Vision Language Models (VLM) Bootcamp updated",
+    "summary": "Saikat earned a new credential Vision Language Models (VLM) Bootcamp at OpenCV University.",
+    "date": "2026-09-19",
+    "createdAt": "2026-09-19T17:54:13.829Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "34c253f5-e4be-4b86-893f-e2764358fb8d",
+    "category": "licences",
+    "action": "updated",
+    "sourceId": "cade9658-ad0f-4ea9-b59c-d9a5b9c5c2ce",
+    "title": "Introduction to Data Engineering updated",
+    "summary": "Saikat earned a new credential Introduction to Data Engineering at IBM.",
+    "date": "2026-09-19",
+    "createdAt": "2026-09-19T17:53:56.178Z",
+    "aiGenerated": false
+  },
+  {
     "id": "7cd17d71-0693-4df1-8abf-7cf5adc67855",
     "category": "cv",
     "action": "updated",
@@ -30,17 +63,6 @@
     "summary": "Saikat added a project AI-powered-e-commerce-platform.",
     "date": "2026-09-17",
     "createdAt": "2026-09-17T17:11:47.234Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "e06985a5-6023-4402-9e87-0c6c4549aadb",
-    "category": "home",
-    "action": "updated",
-    "sourceId": "547668f6-81ea-49c4-bf17-e7240cb1835c",
-    "title": "Portfolio profile updated",
-    "summary": "Saikat refreshed his portfolio profile with the latest information.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T18:44:28.958Z",
     "aiGenerated": false
   },
   {
@@ -85,28 +107,6 @@
     "summary": "Saikat added his Introduction to Data Engineering credential with its issuer information and verification evidence.",
     "date": "2026-09-15",
     "createdAt": "2026-09-15T17:27:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "4a795f5d-8fd1-48da-a40d-b44b9def9de8",
-    "category": "projects",
-    "action": "created",
-    "sourceId": "64d26bc5-f973-4ec9-a4ef-f32e0ef85290",
-    "title": "PingMe project added",
-    "summary": "Saikat added PingMe, a MERN real-time chat application with JWT authentication, Socket.io messaging and Cloudinary uploads.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:26:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "b8a37ec6-b038-43df-9c10-14062fd8cc0f",
-    "category": "projects",
-    "action": "created",
-    "sourceId": "f8fe9135-ca87-497d-acc8-7c02eb1e6c87",
-    "title": "BlogApp project added",
-    "summary": "Saikat added BlogApp, a backend-focused application featuring CRUD, MVC architecture, protected routes and AWS deployment.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:25:00Z",
     "aiGenerated": false
   }
 ]

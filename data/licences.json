@@ -9,7 +9,11 @@
     "image": "data/assets/licences/Coursera A46MCR637UDD.png",
     "id": "cade9658-ad0f-4ea9-b59c-d9a5b9c5c2ce",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-19T17:53:56.167Z",
+    "highlighted": true,
+    "expiryDate": "",
+    "certificateFile": "",
+    "sortOrder": 0
   },
   {
     "title": "Build a Free Website with WordPress",
@@ -21,7 +25,9 @@
     "image": "data/assets/licences/Coursera LA4HF1L3OL8F.png",
     "id": "efabe1cc-42ae-4686-a53e-449cb85d950c",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Professional Networking for Career Growth",
@@ -33,7 +39,9 @@
     "image": "data/assets/licences/Professional Networking for Career Growth.png",
     "id": "52d92872-fa4c-43a1-b025-a150828e3d15",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Responsible AI: Applying AI Principles",
@@ -45,7 +53,9 @@
     "image": "data/assets/licences/Responsible AI: Applying AI Principles.png",
     "id": "a5f24129-4331-444f-8f10-eeab900c6be0",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Prompt Design in Vertex AI",
@@ -57,7 +67,9 @@
     "image": "data/assets/licences/Prompt Design in Vertex AI.png",
     "id": "f2a3bc90-d3a3-431f-8317-dd3a0943bf67",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Introduction to Responsible AI",
@@ -69,7 +81,9 @@
     "image": "data/assets/licences/Introduction to Responsible AI.png",
     "id": "0cc8c7a7-f9ca-4bd1-9d0e-4687bb62b3c9",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Introduction to Large Language Models",
@@ -81,7 +95,11 @@
     "image": "data/assets/licences/Introduction to Large Language Models.png",
     "id": "969bf32a-541a-494c-af5e-45cad60b11c3",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-19T17:54:36.359Z",
+    "highlighted": true,
+    "expiryDate": "",
+    "certificateFile": "",
+    "sortOrder": 0
   },
   {
     "title": "Introduction to Generative AI",
@@ -93,7 +111,9 @@
     "image": "data/assets/licences/Introduction to Generative AI.png",
     "id": "a7e9619a-1877-4f01-9a23-6a7eef419df0",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Professional Machine Learning Engineer Study Guide",
@@ -105,7 +125,9 @@
     "image": "data/assets/licences/Professional Machine Learning Engineer Study Guide.png",
     "id": "b7c04474-77b1-4028-964f-37f4f29e0328",
     "createdAt": "2026-09-15T12:59:14.490Z",
-    "updatedAt": "2026-09-15T12:59:14.490Z"
+    "updatedAt": "2026-09-15T12:59:14.490Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "Vision Language Models (VLM) Bootcamp",
@@ -117,7 +139,11 @@
     "image": "data/assets/licences/opencvv.png",
     "id": "7ba66d2b-432b-4e1a-bfe0-76d851238803",
     "createdAt": "2026-09-15T12:59:14.491Z",
-    "updatedAt": "2026-09-15T12:59:14.491Z"
+    "updatedAt": "2026-09-19T17:54:13.825Z",
+    "highlighted": true,
+    "expiryDate": "",
+    "certificateFile": "",
+    "sortOrder": 0
   },
   {
     "title": "Python For Beginners",
@@ -129,7 +155,9 @@
     "image": "data/assets/licences/Pythonopencvv.png",
     "id": "3e4919fd-7f97-4d92-9820-e4f924dd8ab8",
     "createdAt": "2026-09-15T12:59:14.491Z",
-    "updatedAt": "2026-09-15T12:59:14.491Z"
+    "updatedAt": "2026-09-15T12:59:14.491Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "TensorFlow-Keras Bootcamp",
@@ -141,7 +169,9 @@
     "image": "data/assets/licences/TensorFlowKerasBootcamp.png",
     "id": "4022e5f8-40fe-4962-aafd-ac1d852a8456",
     "createdAt": "2026-09-15T12:59:14.491Z",
-    "updatedAt": "2026-09-15T12:59:14.491Z"
+    "updatedAt": "2026-09-15T12:59:14.491Z",
+    "highlighted": false,
+    "sortOrder": 0
   },
   {
     "title": "PyTorch Bootcamp",
@@ -153,6 +183,8 @@
     "image": "data/assets/licences/PyTorchBootcamp.png",
     "id": "993336e9-8020-4723-8120-87711c85a5a4",
     "createdAt": "2026-09-15T12:59:14.491Z",
-    "updatedAt": "2026-09-15T12:59:14.491Z"
+    "updatedAt": "2026-09-15T12:59:14.491Z",
+    "highlighted": false,
+    "sortOrder": 0
   }
 ]

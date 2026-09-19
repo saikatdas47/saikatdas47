@@ -15,10 +15,11 @@
     "demo": "",
     "image": "data/assets/projects/pingme.png",
     "date": "2026-01-01",
-    "priority": 10,
     "id": "64d26bc5-f973-4ec9-a4ef-f32e0ef85290",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 10
   },
   {
     "name": "BlogApp",
@@ -35,10 +36,11 @@
     "demo": "",
     "image": "data/assets/projects/blogapp.png",
     "date": "2026-01-01",
-    "priority": 9,
     "id": "f8fe9135-ca87-497d-acc8-7c02eb1e6c87",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 9
   },
   {
     "name": "SmartWasteBin — Edge AI, IoT, CNN, Blockchain",
@@ -55,10 +57,11 @@
     "demo": "",
     "image": "data/assets/projects/smartwastebin.jpg",
     "date": "2025-09-01",
-    "priority": 10,
     "id": "afa7276f-bcad-4afd-849f-062d0101e4c6",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 10
   },
   {
     "name": "SentimentSphere — Sentiment Analysis System",
@@ -74,10 +77,11 @@
     "demo": "",
     "image": "data/assets/projects/sentiment.png",
     "date": "2025-04-01",
-    "priority": 8,
     "id": "55313890-edd9-45ff-b347-9ffef9e029f8",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 8
   },
   {
     "name": "Paira-A — Messenger Application",
@@ -92,10 +96,11 @@
     "demo": "",
     "image": "data/assets/projects/paira.png",
     "date": "2025-01-01",
-    "priority": 7,
     "id": "1e1fa4f7-c068-4a29-a152-4f8bc2173566",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 7
   },
   {
     "name": "Hotel Management System",
@@ -110,10 +115,11 @@
     "demo": "",
     "image": "data/assets/projects/hotel.png",
     "date": "2024-07-01",
-    "priority": 6,
     "id": "2f07233d-5645-436b-95ee-92aaa0679440",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 6
   },
   {
     "name": "iGraphics_Project",
@@ -127,10 +133,11 @@
     "demo": "",
     "image": "data/assets/projects/igraphics.png",
     "date": "2022-12-09",
-    "priority": 6,
     "id": "a10e3441-47ef-4bf7-a584-7c6031c4acb5",
     "createdAt": "2026-09-15T12:59:14.485Z",
-    "updatedAt": "2026-09-15T12:59:14.485Z"
+    "updatedAt": "2026-09-15T12:59:14.485Z",
+    "industryFocused": false,
+    "sortOrder": 6
   },
   {
     "name": "TodoApp",
@@ -144,10 +151,11 @@
     "demo": "",
     "image": "data/assets/projects/todoapp.png",
     "date": "2023-01-12",
-    "priority": 6,
     "id": "1179df1a-352e-4ac6-bbfc-d4a518f21e5a",
     "createdAt": "2026-09-15T12:59:14.486Z",
-    "updatedAt": "2026-09-15T12:59:14.486Z"
+    "updatedAt": "2026-09-15T12:59:14.486Z",
+    "industryFocused": false,
+    "sortOrder": 6
   },
   {
     "name": "2DGame_RGP",
@@ -161,10 +169,11 @@
     "demo": "",
     "image": "data/assets/projects/2dgame.png",
     "date": "2023-04-23",
-    "priority": 6,
     "id": "3dbe83a0-38ef-44ab-993e-556097d53211",
     "createdAt": "2026-09-15T12:59:14.486Z",
-    "updatedAt": "2026-09-15T12:59:14.486Z"
+    "updatedAt": "2026-09-15T12:59:14.486Z",
+    "industryFocused": false,
+    "sortOrder": 6
   },
   {
     "name": "AI-powered-e-commerce-platform",
@@ -177,11 +186,11 @@
     "date": "",
     "status": "completed",
     "featured": false,
-    "priority": 11,
-    "sortOrder": 0,
+    "sortOrder": 11,
     "id": "21756aaa-4da5-4f8e-b2b3-ef4fad2027d7",
     "createdAt": "2026-09-17T17:11:47.224Z",
-    "updatedAt": "2026-09-17T17:11:47.224Z"
+    "updatedAt": "2026-09-17T17:11:47.224Z",
+    "industryFocused": false
   },
   {
     "name": "CommerceX: Multi-vendor Marketplace [AI powered]",
@@ -196,10 +205,10 @@
     "date": "",
     "status": "completed",
     "featured": false,
-    "priority": 12,
-    "sortOrder": 0,
+    "sortOrder": 12,
     "id": "6ff5c4ed-ab29-47fe-8fca-26f1cdef9e4f",
     "createdAt": "2026-09-17T17:14:22.363Z",
-    "updatedAt": "2026-09-17T17:14:22.363Z"
+    "updatedAt": "2026-09-17T17:14:22.363Z",
+    "industryFocused": true
   }
 ]

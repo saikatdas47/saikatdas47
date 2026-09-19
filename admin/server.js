@@ -51,9 +51,9 @@ const models = {
       { name: "image", label: "Project image", type: "file", accept: "image/*" },
       { name: "date", label: "Project date", type: "date" },
       { name: "status", label: "Status", type: "select", options: ["completed", "ongoing", "planned", "archived"] },
+      { name: "industryFocused", label: "Industry-focused project", type: "checkbox", help: "Checked projects appear in the Industry-focused Projects group; unchecked projects appear under Undergraduate Projects." },
       { name: "featured", label: "Featured", type: "checkbox" },
-      { name: "priority", label: "Priority", type: "number" },
-      { name: "sortOrder", label: "Manual sort order", type: "number" }
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
   experience: {
@@ -72,8 +72,7 @@ const models = {
       { name: "skills", label: "Research areas / skills", type: "tags", wide: true },
       { name: "links", label: "Related links", type: "links", wide: true },
       { name: "attachment", label: "Supporting PDF", type: "file", accept: "application/pdf", assetFolder: "documents/experience" },
-      { name: "priority", label: "Priority", type: "number" },
-      { name: "sortOrder", label: "Manual sort order", type: "number" }
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
   education: {
@@ -89,8 +88,7 @@ const models = {
       { name: "gpa", label: "GPA", type: "text", help: "Use for school or college results when applicable." },
       { name: "details", label: "Focus, achievements and academic notes", type: "lines", wide: true, help: "Do not repeat CGPA or GPA here." },
       { name: "certificate", label: "Certificate / transcript", type: "file", accept: "application/pdf,image/*", assetFolder: "documents/education" },
-      { name: "priority", label: "Priority", type: "number" },
-      { name: "sortOrder", label: "Manual sort order", type: "number" }
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
   publications: {
@@ -107,8 +105,8 @@ const models = {
       { name: "codeUrl", label: "Code URL", type: "url" },
       { name: "paperFile", label: "Paper PDF", type: "file", accept: "application/pdf", assetFolder: "documents/publications" },
       { name: "notes", label: "Notes", type: "textarea", wide: true },
-      { name: "priority", label: "Priority", type: "number" },
-      { name: "sortOrder", label: "Manual sort order", type: "number" }
+      { name: "ongoing", label: "Ongoing research", type: "checkbox", help: "Checked research appears in Ongoing Research; uncheck it when the work should move to Research Works." },
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
   blogs: {
@@ -123,8 +121,7 @@ const models = {
       { name: "date", label: "Publish date", type: "date" },
       { name: "status", label: "Status", type: "select", options: ["draft", "published", "archived"] },
       { name: "tags", label: "Tags", type: "tags", wide: true },
-      { name: "priority", label: "Priority", type: "number" },
-      { name: "sortOrder", label: "Manual sort order", type: "number" }
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
   licences: {
@@ -140,8 +137,8 @@ const models = {
       { name: "description", label: "Description", type: "textarea", wide: true },
       { name: "image", label: "Credential image", type: "file", accept: "image/*" },
       { name: "certificateFile", label: "Certificate PDF", type: "file", accept: "application/pdf", assetFolder: "documents/licences" },
-      { name: "priority", label: "Priority", type: "number" },
-      { name: "sortOrder", label: "Manual sort order", type: "number" }
+      { name: "highlighted", label: "Highlight this certificate", type: "checkbox", help: "Highlighted certificates appear first in their own section." },
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   }
 };
@@ -204,6 +201,34 @@ function normalizeRecord(model, incoming, previous) {
 }
 
 async function readCollection(name) { return JSON.parse(await fs.readFile(dataFile(name), "utf8")); }
+
+function collectManagedAssetPaths(value, paths = new Set()) {
+  if (typeof value === "string" && value.startsWith("data/assets/")) paths.add(value);
+  else if (Array.isArray(value)) value.forEach((item) => collectManagedAssetPaths(item, paths));
+  else if (value && typeof value === "object") Object.values(value).forEach((item) => collectManagedAssetPaths(item, paths));
+  return paths;
+}
+
+function managedAssetFile(relative) {
+  if (typeof relative !== "string" || !relative.startsWith("data/assets/")) return null;
+  const assetsRoot = path.join(DATA_DIR, "assets"); const target = path.resolve(ROOT_DIR, relative);
+  return target.startsWith(`${assetsRoot}${path.sep}`) ? target : null;
+}
+
+async function removeUnreferencedAssets(previousValue) {
+  const candidates = collectManagedAssetPaths(previousValue); if (!candidates.size) return { deletedAssets: [], assetWarnings: [] };
+  const referenced = new Set();
+  for (const name of Object.keys(models)) collectManagedAssetPaths(await readCollection(name), referenced);
+  const deletedAssets = []; const assetWarnings = [];
+  for (const relative of candidates) {
+    if (referenced.has(relative)) continue;
+    const file = managedAssetFile(relative); if (!file) { assetWarnings.push(`Skipped unsafe asset path: ${relative}`); continue; }
+    try { await fs.unlink(file); deletedAssets.push(relative); }
+    catch (error) { if (error.code !== "ENOENT") assetWarnings.push(`Could not remove ${relative}: ${error.message}`); }
+  }
+  return { deletedAssets, assetWarnings };
+}
+
 async function writeCollection(name, data) {
   const validation = validate(name, data); if (validation.errors.length) return { ok: false, validation };
   await fs.mkdir(BACKUP_DIR, { recursive: true });
@@ -265,7 +290,9 @@ async function aiNews(name, action, record) {
 async function appendNews(name, action, record) {
   const generated = await aiNews(name, action, record); const now = new Date().toISOString();
   const file = path.join(DATA_DIR, "news.json"); const current = await fs.readFile(file, "utf8").then(JSON.parse).catch(() => []);
-  const news = [{ id: crypto.randomUUID(), category: name, action, sourceId: record.id || "home", title: generated.title, summary: generated.summary, date: now.slice(0, 10), createdAt: now, aiGenerated: generated.aiGenerated }, ...current].slice(0, 10);
+  const allowedNewsCategories = new Set(["projects", "publications", "experience", "education", "licences", "cv", "contact"]);
+  const validCurrent = current.filter(item => allowedNewsCategories.has(item.category));
+  const news = [{ id: crypto.randomUUID(), category: name, action, sourceId: record.id || "home", title: generated.title, summary: generated.summary, date: now.slice(0, 10), createdAt: now, aiGenerated: generated.aiGenerated }, ...validCurrent].slice(0, 10);
   const temp = `${file}.${crypto.randomUUID()}.tmp`; await fs.writeFile(temp, `${JSON.stringify(news, null, 2)}\n`, "utf8"); await fs.rename(temp, file);
 }
 
@@ -350,12 +377,13 @@ async function api(req, res, url) {
     if (parts[1] !== "data") return respond(res, 404, { error: "API route not found." });
     const collection = await readCollection(name);
     if (req.method === "GET") return respond(res, 200, { data: collection, validation: validate(name, collection) });
-    const payload = await body(req);
+    const payload = req.method === "DELETE" ? null : await body(req);
     if (model.shape === "object") {
       if (!["POST", "PUT"].includes(req.method)) return respond(res, 405, { error: "Method not allowed." });
       const updated = normalizeRecord(model, payload, collection); const result = await writeCollection(name, updated);
+      const cleanup = result.ok ? await removeUnreferencedAssets(collection) : {};
       if (result.ok && name === "home") await appendHomeSpecificNews(collection, updated);
-      return respond(res, result.ok ? 200 : 422, result.ok ? { message: "Profile saved.", data: updated, ...result } : result);
+      return respond(res, result.ok ? 200 : 422, result.ok ? { message: "Profile saved.", data: updated, ...result, ...cleanup } : result);
     }
     if (req.method === "POST") {
       const record = normalizeRecord(model, payload); const result = await writeCollection(name, [...collection, record]);
@@ -365,11 +393,12 @@ async function api(req, res, url) {
     const id = parts[3]; const index = collection.findIndex((item) => item.id === id); if (index < 0) return respond(res, 404, { error: "Record not found." });
     if (req.method === "PUT") {
       const record = normalizeRecord(model, payload, collection[index]); const next = [...collection]; next[index] = record;
-      const result = await writeCollection(name, next); if (result.ok && automaticNewsSections.has(name)) await appendNews(name, "updated", record); return respond(res, result.ok ? 200 : 422, result.ok ? { message: `${model.singular} updated.`, data: record, ...result } : result);
+      const result = await writeCollection(name, next); const cleanup = result.ok ? await removeUnreferencedAssets(collection[index]) : {}; if (result.ok && automaticNewsSections.has(name)) await appendNews(name, "updated", record); return respond(res, result.ok ? 200 : 422, result.ok ? { message: `${model.singular} updated.`, data: record, ...result, ...cleanup } : result);
     }
     if (req.method === "DELETE") {
       const next = collection.filter((item) => item.id !== id); const result = await writeCollection(name, next);
-      return respond(res, 200, { message: `${model.singular} deleted.`, ...result });
+      const cleanup = result.ok ? await removeUnreferencedAssets(collection[index]) : {};
+      return respond(res, result.ok ? 200 : 422, result.ok ? { message: `${model.singular} and its unreferenced files were deleted.`, ...result, ...cleanup } : result);
     }
     return respond(res, 405, { error: "Method not allowed." });
   } catch (error) { return respond(res, error.status || 500, { error: error.message }); }

@@ -125,3 +125,14 @@ body{background-color:#f5f1e7;background-image:radial-gradient(circle at 10px 10
 @media(max-width:390px){.chat-dialog{width:94vw;height:min(72dvh,540px);border-radius:17px}.hero-about{-webkit-line-clamp:3}.portrait-wrap{width:min(82vw,300px)}.metric-strip{margin:0 12px}.metric-strip article{padding:12px}.metric-strip strong{font-size:23px}}
 @media(max-width:340px){.brand strong{display:none}.hero h1{font-size:43px}.action-row{grid-template-columns:1fr}.metric-strip{grid-template-columns:1fr 1fr}.chat-dialog{width:96vw;height:78dvh}.chat-suggestions{display:none}}
 @media(max-height:600px) and (max-width:760px){.chat-dialog{height:88dvh}.chat-suggestions{display:none}.chat-head{min-height:52px}.chat-form{min-height:54px}}
+
+/* Editorial dividers for admin-controlled portfolio groups. */
+.content-group{margin-top:46px}.content-group:first-of-type{margin-top:0}
+.group-heading{display:grid;grid-template-columns:13px auto 1fr;align-items:center;gap:12px;margin:0 0 22px}
+.group-heading>span{width:10px;height:10px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 5px #ef624819}
+.group-heading:after{content:"";height:1px;margin-left:7px;background:linear-gradient(90deg,#b48a3a8c,#b48a3a12)}
+.group-heading p{margin:0 0 4px;color:var(--muted);font:700 9px "Space Grotesk";letter-spacing:.15em}
+.group-heading h3{margin:0;font:700 clamp(21px,2.5vw,30px)/1.1 "Space Grotesk";letter-spacing:-.025em}
+.content-group .empty{grid-column:1/-1;margin:0;background:#fffdf873}
+@media(min-width:761px){body[data-page="overview"] #overview .hero{height:100%}}
+@media(max-width:760px){.content-group{margin-top:36px}.group-heading{grid-template-columns:11px minmax(0,auto) 1fr;gap:9px;margin-bottom:17px}.group-heading h3{font-size:21px}.group-heading p{font-size:8px}.group-heading:after{margin-left:2px}}

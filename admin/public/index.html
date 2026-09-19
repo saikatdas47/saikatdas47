@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Portfolio Admin</title>
-  <link rel="stylesheet" href="app.css?v=3">
+  <link rel="stylesheet" href="app.css?v=5">
 </head>
 <body>
   <header class="topbar">
@@ -23,9 +23,9 @@
         <button id="newButton" class="button primary" type="button">+ Add new</button>
       </section>
       <section id="dashboard" class="stats"></section>
-      <section class="toolbar">
+      <section id="toolbar" class="toolbar">
         <label class="search"><span>Search</span><input id="searchInput" type="search" placeholder="Search saved data…"></label>
-        <label><span>Sort by</span><select id="sortSelect"><option value="updatedAt">Last updated</option><option value="createdAt">Created time</option><option value="sortOrder">Manual order</option><option value="priority">Priority</option><option value="date">Content date</option><option value="title">Title / name</option></select></label>
+        <label><span>Sort by</span><select id="sortSelect"><option value="sortOrder">Manual sort order</option><option value="updatedAt">Last updated</option><option value="createdAt">Created time</option><option value="date">Content date</option><option value="title">Title / name</option></select></label>
         <label><span>Direction</span><select id="directionSelect"><option value="desc">Descending</option><option value="asc">Ascending</option></select></label>
       </section>
       <section id="recordList" class="record-list"></section>
@@ -40,6 +40,6 @@
       <footer><button id="cancelButton" class="button secondary" type="button">Cancel</button><button id="saveButton" class="button primary" type="submit">Save data</button></footer>
     </form>
   </dialog>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>
