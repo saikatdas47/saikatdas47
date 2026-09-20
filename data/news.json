@@ -1,5 +1,16 @@
 [
   {
+    "id": "73306ec4-2461-4a0a-b70c-08a73f9a8638",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "f1122f46-356d-4c99-8392-2c9583f134b9",
+    "title": "Stremars : Full-Stack Video Sharing Platform added",
+    "summary": "Saikat added a project Stremars : Full-Stack Video Sharing Platform.",
+    "date": "2026-09-20",
+    "createdAt": "2026-09-20T20:42:24.317Z",
+    "aiGenerated": false
+  },
+  {
     "id": "2de7c708-45b2-4202-b737-c8109a40793d",
     "category": "licences",
     "action": "updated",
@@ -96,17 +107,6 @@
     "summary": "Saikat added his under-review work on lightweight plant-disease classification, severity-aware evaluation and explainable analysis.",
     "date": "2026-09-15",
     "createdAt": "2026-09-15T17:28:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "660009e4-fcb4-4119-b254-311a706a553a",
-    "category": "licences",
-    "action": "created",
-    "sourceId": "cade9658-ad0f-4ea9-b59c-d9a5b9c5c2ce",
-    "title": "Data Engineering credential added",
-    "summary": "Saikat added his Introduction to Data Engineering credential with its issuer information and verification evidence.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:27:00Z",
     "aiGenerated": false
   }
 ]
