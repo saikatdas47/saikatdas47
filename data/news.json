@@ -1,5 +1,16 @@
 [
   {
+    "id": "d4654915-21cb-4012-9d38-55a5c3b8994e",
+    "category": "projects",
+    "action": "updated",
+    "sourceId": "f1122f46-356d-4c99-8392-2c9583f134b9",
+    "title": "Stremars : Full-Stack Video Sharing Platform updated",
+    "summary": "Saikat added a project Stremars : Full-Stack Video Sharing Platform.",
+    "date": "2026-09-20",
+    "createdAt": "2026-09-20T20:48:17.262Z",
+    "aiGenerated": false
+  },
+  {
     "id": "73306ec4-2461-4a0a-b70c-08a73f9a8638",
     "category": "projects",
     "action": "created",
@@ -96,17 +107,6 @@
     "summary": "Saikat added SmartWasteBin, an Edge AI waste-classification project combining CNN models, IoT, Firebase and secure logging.",
     "date": "2026-09-15",
     "createdAt": "2026-09-15T17:29:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "42bb8385-5587-49d8-8290-bff47a70a751",
-    "category": "publications",
-    "action": "created",
-    "sourceId": "82ec3c7b-3a7f-406c-920d-c6a7d8dfffa5",
-    "title": "Plant-disease research added",
-    "summary": "Saikat added his under-review work on lightweight plant-disease classification, severity-aware evaluation and explainable analysis.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:28:00Z",
     "aiGenerated": false
   }
 ]

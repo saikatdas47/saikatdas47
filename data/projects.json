@@ -213,8 +213,8 @@
   },
   {
     "name": "Stremars : Full-Stack Video Sharing Platform",
-    "description": "Description:\nDeveloped a full-stack video-sharing platform inspired by YouTube, where users can explore videos without signing in and create accounts to upload videos, like content, comment, subscribe to channels, publish community posts, and manage their creator dashboard.\n\nBuilt the frontend with React and bundled it inside the Node.js backend for single-service deployment. Implemented JWT authentication, MongoDB-based watch history, real-time like and subscription toggles, public channel profiles, video search and filtering, Cloudinary media storage, and responsive user interfaces.",
-    "details": "Key Features:\n• Video upload, viewing, search, filtering, and publishing controls\n• User authentication with access and refresh tokens\n• Public creator profiles with cover images and recent videos\n• Like, comment, subscription, and watch-history systems\n• Community text posts with reactions\n• Creator dashboard and channel management\n• MongoDB-backed subscriber and reaction counts\n• Cloudinary video, thumbnail, avatar, and cover storage\n• React frontend bundled with Express for single Render deployment\n• Health-check endpoint and responsive YouTube-style interface",
+    "description": "Developed a full-stack video-sharing platform inspired by YouTube, where users can explore videos without signing in and create accounts to upload videos, like content, comment, subscribe to channels and publish community posts.",
+    "details": "Key Features:\n• Video upload, viewing, search, filtering, and publishing controls\n• User authentication with access and refresh tokens\n• Public creator profiles with cover images and recent videos\n• Like, comment, subscription, and watch-history systems\n• Community text posts with reactions\n• Creator dashboard and channel management\n• MongoDB-backed subscriber and reaction counts\n• Cloudinary video, thumbnail, avatar, and cover storage\n• React frontend bundled with Express for single Render deployment\n• Health-check endpoint and responsive YouTube-style interface\n\n\nBuilt the frontend with React and bundled it inside the Node.js backend for single-service deployment. Implemented JWT authentication, MongoDB-based watch history, real-time like and subscription toggles, public channel profiles, video search and filtering, Cloudinary media storage, and responsive user interfaces.",
     "tags": [
       "React.js",
       "Vite",
@@ -238,6 +238,6 @@
     "sortOrder": 0,
     "id": "f1122f46-356d-4c99-8392-2c9583f134b9",
     "createdAt": "2026-09-20T20:42:24.305Z",
-    "updatedAt": "2026-09-20T20:42:24.305Z"
+    "updatedAt": "2026-09-20T20:48:17.249Z"
   }
 ]
