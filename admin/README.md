@@ -96,6 +96,12 @@ The public portfolio groups content from three admin checkboxes:
 
 These options are saved as normal Boolean values in the corresponding JSON records. IDs and timestamps continue to be generated automatically.
 
+## Volunteer experience
+
+Use **Volunteer experience** to add an organization, role, cause, start month, optional end month, description and manual sort order. Select **I am currently volunteering in this role** to show the start month through “Present”; the end month is disabled and cleared automatically.
+
+Each volunteer record can contain up to 50 media entries. A media entry may contain a title, an external website URL, an uploaded image, PDF, Word document, or PowerPoint presentation. Uploaded media is saved under `../data/assets/volunteer/` and follows the same automatic cleanup rules as other managed files.
+
 ## Validation and backups
 
 Validate every JSON file without starting the server:

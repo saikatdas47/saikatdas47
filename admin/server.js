@@ -75,6 +75,21 @@ const models = {
       { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
+  volunteer: {
+    label: "Volunteer experience", singular: "volunteer experience", shape: "array", assetFolder: "volunteer",
+    description: "Volunteer roles, causes, timelines, descriptions and supporting media.",
+    fields: [
+      { name: "organization", label: "Organization", type: "text", required: true },
+      { name: "role", label: "Role", type: "text", required: true },
+      { name: "cause", label: "Cause", type: "select", options: ["Animal Welfare", "Arts and Culture", "Children", "Civil Rights and Social Action", "Economic Empowerment", "Education", "Environment", "Health", "Human Rights", "Disaster and Humanitarian Relief", "Politics", "Poverty Alleviation", "Science and Technology", "Social Services", "Veteran Support"] },
+      { name: "current", label: "I am currently volunteering in this role", type: "checkbox" },
+      { name: "startDate", label: "Start date", type: "month", required: true },
+      { name: "endDate", label: "End date", type: "month", help: "Leave empty while currently volunteering." },
+      { name: "description", label: "Description", type: "textarea", wide: true },
+      { name: "media", label: "Media", type: "media", wide: true, help: "Add up to 50 images, documents, presentation files or website links." },
+      { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
+    ]
+  },
   education: {
     label: "Education", singular: "education record", shape: "array", assetFolder: "education",
     description: "Academic records, results, dates, details and optional documents.",
@@ -146,7 +161,10 @@ const models = {
 const allowedMime = new Map([
   ["image/jpeg", ".jpg"], ["image/png", ".png"], ["image/webp", ".webp"], ["image/gif", ".gif"],
   ["image/svg+xml", ".svg"], ["application/pdf", ".pdf"],
-  ["application/vnd.openxmlformats-officedocument.wordprocessingml.document", ".docx"]
+  ["application/msword", ".doc"],
+  ["application/vnd.openxmlformats-officedocument.wordprocessingml.document", ".docx"],
+  ["application/vnd.openxmlformats-officedocument.presentationml.presentation", ".pptx"],
+  ["application/vnd.ms-powerpoint", ".ppt"]
 ]);
 
 function respond(res, status, body) {
@@ -176,10 +194,12 @@ function validate(name, value) {
       const fieldValue = getPath(record, field.path || field.name);
       if (field.required && (fieldValue == null || String(fieldValue).trim() === "")) errors.push(`${prefix}: ${field.label} is required.`);
       if (fieldValue == null || fieldValue === "") return;
-      if (["tags", "lines", "links"].includes(field.type) && !Array.isArray(fieldValue)) errors.push(`${prefix}: ${field.label} must be a list.`);
+      if (["tags", "lines", "links", "media"].includes(field.type) && !Array.isArray(fieldValue)) errors.push(`${prefix}: ${field.label} must be a list.`);
+      if (field.type === "media" && Array.isArray(fieldValue) && fieldValue.length > 50) errors.push(`${prefix}: ${field.label} supports up to 50 items.`);
       if (field.type === "number" && typeof fieldValue !== "number") errors.push(`${prefix}: ${field.label} must be a number.`);
       if (field.type === "checkbox" && typeof fieldValue !== "boolean") errors.push(`${prefix}: ${field.label} must be true or false.`);
       if (field.type === "date" && !/^\d{4}-\d{2}-\d{2}$/.test(fieldValue)) errors.push(`${prefix}: ${field.label} must use YYYY-MM-DD.`);
+      if (field.type === "month" && !/^\d{4}-\d{2}$/.test(fieldValue)) errors.push(`${prefix}: ${field.label} must use YYYY-MM.`);
     });
     if (!record.id) warnings.push(`${prefix} has no ID; it will receive one when saved.`);
     if (!record.createdAt || !record.updatedAt) warnings.push(`${prefix} is missing timestamps; they will be added when saved.`);
@@ -243,7 +263,7 @@ function publicNewsSource(name, record) {
   return {
     category: name,
     name: record.name || record.title || record.role || record.degree || "Portfolio update",
-    organization: record.company || record.school || record.issuer || record.venue || "",
+    organization: record.company || record.organization || record.school || record.issuer || record.venue || "",
     description: record.description || record.excerpt || record.notes || "",
     details: Array.isArray(record.details) ? record.details.slice(0, 3) : [],
     skills: Array.isArray(record.skills) ? record.skills.slice(0, 8) : Array.isArray(record.tags) ? record.tags.slice(0, 8) : [],
@@ -253,8 +273,8 @@ function publicNewsSource(name, record) {
 
 function fallbackNews(name, action, record) {
   const item = record.name || record.title || record.role || record.degree || "portfolio";
-  const organization = record.company || record.school || record.issuer || record.venue;
-  const verbs = { projects: "added a project", publications: "updated his research portfolio with", experience: "updated his professional journey with", education: "added an education update", licences: "earned a new credential", cv: "updated", contact: "updated" };
+  const organization = record.company || record.organization || record.school || record.issuer || record.venue;
+  const verbs = { projects: "added a project", publications: "updated his research portfolio with", experience: "updated his professional journey with", volunteer: "added a volunteer experience", education: "added an education update", licences: "earned a new credential", cv: "updated", contact: "updated" };
   return {
     title: name === "home" ? "Portfolio profile updated" : `${item} ${action === "created" ? "added" : "updated"}`,
     summary: `Saikat ${verbs[name] || "updated"} ${item}${organization ? ` at ${organization}` : ""}.`
@@ -290,13 +310,13 @@ async function aiNews(name, action, record) {
 async function appendNews(name, action, record) {
   const generated = await aiNews(name, action, record); const now = new Date().toISOString();
   const file = path.join(DATA_DIR, "news.json"); const current = await fs.readFile(file, "utf8").then(JSON.parse).catch(() => []);
-  const allowedNewsCategories = new Set(["projects", "publications", "experience", "education", "licences", "cv", "contact"]);
+  const allowedNewsCategories = new Set(["projects", "publications", "experience", "volunteer", "education", "licences", "cv", "contact"]);
   const validCurrent = current.filter(item => allowedNewsCategories.has(item.category));
   const news = [{ id: crypto.randomUUID(), category: name, action, sourceId: record.id || "home", title: generated.title, summary: generated.summary, date: now.slice(0, 10), createdAt: now, aiGenerated: generated.aiGenerated }, ...validCurrent].slice(0, 10);
   const temp = `${file}.${crypto.randomUUID()}.tmp`; await fs.writeFile(temp, `${JSON.stringify(news, null, 2)}\n`, "utf8"); await fs.rename(temp, file);
 }
 
-const automaticNewsSections = new Set(["projects", "publications", "experience", "education", "licences"]);
+const automaticNewsSections = new Set(["projects", "publications", "experience", "volunteer", "education", "licences"]);
 async function appendHomeSpecificNews(previous, updated) {
   const previousCv = [previous.industryCvPdf || previous.resumePdf || "", previous.academicCvPdf || ""];
   const updatedCv = [updated.industryCvPdf || updated.resumePdf || "", updated.academicCvPdf || ""];
@@ -306,11 +326,12 @@ async function appendHomeSpecificNews(previous, updated) {
 }
 
 async function portfolioContext() {
-  const [home, projects, experience, publications, education] = await Promise.all(["home", "projects", "experience", "publications", "education"].map(readCollection));
+  const [home, projects, experience, volunteer, publications, education] = await Promise.all(["home", "projects", "experience", "volunteer", "publications", "education"].map(readCollection));
   return {
     profile: { name: home.name, title: home.title, location: home.location, about: home.about, skills: home.skills, links: home.links },
     projects: projects.map(publicNewsSource.bind(null, "projects")),
     experience: experience.map(publicNewsSource.bind(null, "experience")),
+    volunteering: volunteer.map(publicNewsSource.bind(null, "volunteer")),
     research: publications.map(publicNewsSource.bind(null, "publications")),
     education: education.map(publicNewsSource.bind(null, "education"))
   };
@@ -354,7 +375,7 @@ function safeName(original, extension) {
 
 async function upload(name, payload) {
   const model = models[name]; const extension = allowedMime.get(payload.mimeType);
-  if (!extension) throw Object.assign(new Error("Allowed uploads: JPG, PNG, WebP, GIF, SVG, PDF and DOCX."), { status: 415 });
+  if (!extension) throw Object.assign(new Error("Allowed uploads: JPG, PNG, WebP, GIF, SVG, PDF, DOCX, PPT and PPTX."), { status: 415 });
   const raw = String(payload.data || "").replace(/^data:[^;]+;base64,/, ""); const buffer = Buffer.from(raw, "base64");
   if (!buffer.length || buffer.length > 12 * 1024 * 1024) throw Object.assign(new Error("File must be between 1 byte and 12 MB."), { status: 413 });
   const requested = String(payload.assetFolder || model.assetFolder);
@@ -404,7 +425,7 @@ async function api(req, res, url) {
   } catch (error) { return respond(res, error.status || 500, { error: error.message }); }
 }
 
-function type(file) { return ({ ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".json":"application/json; charset=utf-8", ".png":"image/png", ".jpg":"image/jpeg", ".jpeg":"image/jpeg", ".webp":"image/webp", ".gif":"image/gif", ".svg":"image/svg+xml", ".pdf":"application/pdf" })[path.extname(file).toLowerCase()] || "application/octet-stream"; }
+function type(file) { return ({ ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".json":"application/json; charset=utf-8", ".png":"image/png", ".jpg":"image/jpeg", ".jpeg":"image/jpeg", ".webp":"image/webp", ".gif":"image/gif", ".svg":"image/svg+xml", ".pdf":"application/pdf", ".doc":"application/msword", ".docx":"application/vnd.openxmlformats-officedocument.wordprocessingml.document", ".ppt":"application/vnd.ms-powerpoint", ".pptx":"application/vnd.openxmlformats-officedocument.presentationml.presentation" })[path.extname(file).toLowerCase()] || "application/octet-stream"; }
 async function staticFile(res, pathname) {
   const relative = pathname === "/" || pathname === "/admin" || pathname === "/admin/" ? "index.html" : pathname.replace(/^\/admin\/?/, "").replace(/^\/+/, "");
   const target = path.resolve(PUBLIC_DIR, decodeURIComponent(relative));

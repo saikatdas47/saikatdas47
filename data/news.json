@@ -1,5 +1,16 @@
 [
   {
+    "id": "7f2eb564-38ce-4758-bf15-fd17052d4eba",
+    "category": "volunteer",
+    "action": "created",
+    "sourceId": "6f0e7793-df2e-4c61-b693-059353335349",
+    "title": "Peer Reviewer added",
+    "summary": "Saikat added a volunteer experience Peer Reviewer at PLOS ONE.",
+    "date": "2026-09-23",
+    "createdAt": "2026-09-23T09:21:46.290Z",
+    "aiGenerated": false
+  },
+  {
     "id": "d4654915-21cb-4012-9d38-55a5c3b8994e",
     "category": "projects",
     "action": "updated",
@@ -96,17 +107,6 @@
     "summary": "Saikat is working remotely as a Research Intern, focusing on computer vision, LLMs, VLMs, AI/ML research, LLM/NLP and paper analysis.",
     "date": "2026-09-15",
     "createdAt": "2026-09-15T17:30:00Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "7769c4ee-af0a-4a11-b7cb-5c0c30295f9f",
-    "category": "projects",
-    "action": "created",
-    "sourceId": "afa7276f-bcad-4afd-849f-062d0101e4c6",
-    "title": "SmartWasteBin project added",
-    "summary": "Saikat added SmartWasteBin, an Edge AI waste-classification project combining CNN models, IoT, Firebase and secure logging.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:29:00Z",
     "aiGenerated": false
   }
 ]
