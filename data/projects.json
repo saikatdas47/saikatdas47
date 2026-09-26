@@ -239,5 +239,35 @@
     "id": "f1122f46-356d-4c99-8392-2c9583f134b9",
     "createdAt": "2026-09-20T20:42:24.305Z",
     "updatedAt": "2026-09-20T20:48:17.249Z"
+  },
+  {
+    "name": "Dhaka Tesla Pool",
+    "description": "Built a full-stack ride-sharing platform where passengers traveling along compatible routes share a vehicle and receive individual fares based on booked seats and shared distance.",
+    "details": "",
+    "tags": [
+      "React.js",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Socket.IO",
+      "JWT",
+      "Cloudinary",
+      "Multer",
+      "REST API",
+      "Docker",
+      "Render"
+    ],
+    "repo": "https://github.com/saikatdas47/Dhaka-Tesla-Pool",
+    "demo": "https://dhaka-tesla-pool-pohv.onrender.com/passenger",
+    "image": "data/assets/projects/1790441726509-thub.png",
+    "date": "",
+    "status": "completed",
+    "industryFocused": true,
+    "featured": true,
+    "sortOrder": 0,
+    "id": "4c5bd0d0-cf56-4fee-8fb0-8cee0ba5cc07",
+    "createdAt": "2026-09-26T16:55:37.634Z",
+    "updatedAt": "2026-09-26T16:55:37.634Z"
   }
 ]

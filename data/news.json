@@ -1,5 +1,16 @@
 [
   {
+    "id": "1cb7ac30-c3a1-4e71-9dc6-5b77f94a0362",
+    "category": "projects",
+    "action": "created",
+    "sourceId": "4c5bd0d0-cf56-4fee-8fb0-8cee0ba5cc07",
+    "title": "Dhaka Tesla Pool added",
+    "summary": "Saikat added a project Dhaka Tesla Pool.",
+    "date": "2026-09-26",
+    "createdAt": "2026-09-26T16:55:37.644Z",
+    "aiGenerated": false
+  },
+  {
     "id": "7f2eb564-38ce-4758-bf15-fd17052d4eba",
     "category": "volunteer",
     "action": "created",
@@ -96,17 +107,6 @@
     "summary": "Saikat added a project AI-powered-e-commerce-platform.",
     "date": "2026-09-17",
     "createdAt": "2026-09-17T17:11:47.234Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "0d01b6b2-6f64-4718-8ff7-b326cab78fb9",
-    "category": "experience",
-    "action": "created",
-    "sourceId": "2b31c00c-ae97-4640-a5a4-d091c172456a",
-    "title": "Research role at ELITE RESEARCH LAB",
-    "summary": "Saikat is working remotely as a Research Intern, focusing on computer vision, LLMs, VLMs, AI/ML research, LLM/NLP and paper analysis.",
-    "date": "2026-09-15",
-    "createdAt": "2026-09-15T17:30:00Z",
     "aiGenerated": false
   }
 ]
