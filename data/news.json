@@ -1,5 +1,38 @@
 [
   {
+    "id": "c7bf0cd8-4d5d-4e61-8140-d2d15f04f8e9",
+    "category": "experience",
+    "action": "created",
+    "sourceId": "8490e6cf-1e22-41ad-94b7-91380eb0cef5",
+    "title": "Backend AI Engineer - Intern added",
+    "summary": "Saikat updated his professional journey with Backend AI Engineer - Intern at FlyRank AI.",
+    "date": "2026-09-27",
+    "createdAt": "2026-09-27T21:26:21.177Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "13db7aaf-f517-45ac-aafb-edb78b600ab3",
+    "category": "experience",
+    "action": "created",
+    "sourceId": "6183cec8-5f47-4f94-890f-7314ecbca0d1",
+    "title": "Back End Developer added",
+    "summary": "Saikat updated his professional journey with Back End Developer at Vyren.",
+    "date": "2026-09-27",
+    "createdAt": "2026-09-27T21:26:21.167Z",
+    "aiGenerated": false
+  },
+  {
+    "id": "3cbf3b36-5062-453f-b441-d154a3e54558",
+    "category": "experience",
+    "action": "updated",
+    "sourceId": "2b31c00c-ae97-4640-a5a4-d091c172456a",
+    "title": "Research Assistant updated",
+    "summary": "Saikat updated his professional journey with Research Assistant at ELITE Research Lab LLC.",
+    "date": "2026-09-27",
+    "createdAt": "2026-09-27T21:26:21.152Z",
+    "aiGenerated": false
+  },
+  {
     "id": "1cb7ac30-c3a1-4e71-9dc6-5b77f94a0362",
     "category": "projects",
     "action": "created",
@@ -74,39 +107,6 @@
     "summary": "Saikat earned a new credential Introduction to Data Engineering at IBM.",
     "date": "2026-09-19",
     "createdAt": "2026-09-19T17:53:56.178Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "7cd17d71-0693-4df1-8abf-7cf5adc67855",
-    "category": "cv",
-    "action": "updated",
-    "sourceId": "portfolio-cv",
-    "title": "Curriculum vitae updated",
-    "summary": "Saikat updated Curriculum vitae.",
-    "date": "2026-09-17",
-    "createdAt": "2026-09-17T17:14:54.620Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "9610cae5-8c78-4dd8-8904-ccf230045ca3",
-    "category": "projects",
-    "action": "created",
-    "sourceId": "6ff5c4ed-ab29-47fe-8fca-26f1cdef9e4f",
-    "title": "CommerceX – an enterprise-grade, multi-vendor e-commerce platform - AI Powered added",
-    "summary": "Saikat added a project CommerceX – an enterprise-grade, multi-vendor e-commerce platform - AI Powered.",
-    "date": "2026-09-17",
-    "createdAt": "2026-09-17T17:14:22.370Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "8e3c278d-95f5-4749-b1e6-732c3a931a6f",
-    "category": "projects",
-    "action": "created",
-    "sourceId": "21756aaa-4da5-4f8e-b2b3-ef4fad2027d7",
-    "title": "AI-powered-e-commerce-platform added",
-    "summary": "Saikat added a project AI-powered-e-commerce-platform.",
-    "date": "2026-09-17",
-    "createdAt": "2026-09-17T17:11:47.234Z",
     "aiGenerated": false
   }
 ]
