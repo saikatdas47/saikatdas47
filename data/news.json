@@ -1,5 +1,16 @@
 [
   {
+    "id": "2b637e3b-06de-4e47-96e9-9a8762e5bbdc",
+    "category": "projects",
+    "action": "updated",
+    "sourceId": "6ff5c4ed-ab29-47fe-8fca-26f1cdef9e4f",
+    "title": "CommerceX: Multi-vendor Marketplace [AI powered] updated",
+    "summary": "Saikat added a project CommerceX: Multi-vendor Marketplace [AI powered].",
+    "date": "2026-09-28",
+    "createdAt": "2026-09-28T01:52:54.440Z",
+    "aiGenerated": false
+  },
+  {
     "id": "c7bf0cd8-4d5d-4e61-8140-d2d15f04f8e9",
     "category": "experience",
     "action": "created",
@@ -96,17 +107,6 @@
     "summary": "Saikat earned a new credential Vision Language Models (VLM) Bootcamp at OpenCV University.",
     "date": "2026-09-19",
     "createdAt": "2026-09-19T17:54:13.829Z",
-    "aiGenerated": false
-  },
-  {
-    "id": "34c253f5-e4be-4b86-893f-e2764358fb8d",
-    "category": "licences",
-    "action": "updated",
-    "sourceId": "cade9658-ad0f-4ea9-b59c-d9a5b9c5c2ce",
-    "title": "Introduction to Data Engineering updated",
-    "summary": "Saikat earned a new credential Introduction to Data Engineering at IBM.",
-    "date": "2026-09-19",
-    "createdAt": "2026-09-19T17:53:56.178Z",
     "aiGenerated": false
   }
 ]

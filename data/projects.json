@@ -195,20 +195,20 @@
   {
     "name": "CommerceX: Multi-vendor Marketplace [AI powered]",
     "description": "I built CommerceX with a focus on secure workflows, reliable inventory, and seller-aware order management.",
-    "details": "Key highlights:\n- JWT authentication, role-based access, seller approval, and immutable audit logs\n- Nested categories, product variants, full-text search, and atomic stock control\n- Per-seller order fulfillment with validated state transitions\n- Price snapshots and deadlock-safe checkout\n- Grounded AI assistant connected to live product data, with citation support and graceful fallback",
+    "details": "Key highlights:\n\n- JWT authentication, role-based authorization, seller approval, and audit logs\n- Categories, product variants, search, reviews, ratings, and inventory management\n- Transactional checkout with price snapshots and atomic stock updates\n- Per-seller order fulfilment with validated status transitions and shipment tracking\n- Real-time admin–seller messaging powered by Socket.IO\n- Redis caching with automatic invalidation and PostgreSQL fallback\n- AI shopping assistant grounded in live product data, with response caching and graceful fallback\n- Automated integration and Playwright end-to-end tests\n- Docker Compose setup with health checks and production-ready Render deployment",
     "tags": [
-      "Django PostgreSQL Redis"
+      "NodeJs PostgreSQL Redis Socket.io React Vite Docker Cloudinary"
     ],
     "repo": "https://github.com/saikatdas47/Multi-vendor-marketplace",
-    "demo": "https://multi-vendor-marketplace-224q.vercel.app",
+    "demo": "https://multi-vendor-marketplace-3px3.onrender.com/",
     "image": "data/assets/projects/1789665246685-screenshot-2026-09-17-at-11-13-57-pm.png",
     "date": "",
     "status": "completed",
-    "featured": false,
+    "featured": true,
     "sortOrder": 12,
     "id": "6ff5c4ed-ab29-47fe-8fca-26f1cdef9e4f",
     "createdAt": "2026-09-17T17:14:22.363Z",
-    "updatedAt": "2026-09-17T17:14:22.363Z",
+    "updatedAt": "2026-09-28T01:52:54.424Z",
     "industryFocused": true
   },
   {
