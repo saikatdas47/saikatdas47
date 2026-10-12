@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 
 <body>
@@ -22,10 +22,10 @@
                 aria-controls="siteNav"><span></span><span></span><span></span><b>Menu</b></button>
             <nav id="siteNav" aria-label="Portfolio pages"><a class="active"
                     href="#overview"><span>01</span>Overview</a><a href="#news"><span>02</span>Recent news</a><a
-                    href="#experience"><span>03</span>Experience</a><a href="#volunteer"><span>04</span>Volunteer</a><a href="#projects"><span>05</span>Projects</a><a
-                    href="#research"><span>06</span>Research</a><a href="#education"><span>07</span>Education</a><a
-                    href="#credentials"><span>08</span>Certificates</a><a href="#cv"><span>09</span>View CV</a><a
-                    href="#contact"><span>10</span>Contact</a></nav><button id="chatOpen" class="chat-launch"
+                    href="#experience"><span>03</span>Experience</a><a href="#projects"><span>04</span>Projects</a><a
+                    href="#research"><span>05</span>Research</a><a href="#education"><span>06</span>Education</a><a
+                    href="#credentials"><span>07</span>Certificates</a><a href="#volunteer"><span>08</span>Volunteer</a><a
+                    href="#contact"><span>09</span>Contact</a><a href="#cv"><span>10</span>View CV</a></nav><button id="chatOpen" class="chat-launch"
                 type="button"><span class="bot-avatar" aria-hidden="true">✦</span><span><strong>Ask Saikat
                         AI</strong><small>Projects & research</small></span></button>
             <p class="rail-foot">Chattogram, Bangladesh<br><em>Open to meaningful work</em></p>
@@ -100,10 +100,11 @@
                         <p class="section-index">06 / RESEARCH</p>
                         <h2>Research/Publications.</h2>
                     </div>
-                    <p>Published, under-review and ongoing work remain explicitly separated.</p>
+                    <p>Current studies, conference presentations and journal papers remain clearly separated.</p>
                 </header>
-                <div class="content-group"><div class="group-heading"><span></span><div><p>IN PROGRESS</p><h3>Ongoing Research</h3></div></div><div id="ongoingPublicationList" class="research-list"></div></div>
-                <div class="content-group"><div class="group-heading"><span></span><div><p>RESEARCH OUTPUTS</p><h3>Research Works</h3></div></div><div id="publicationList" class="research-list"></div></div>
+                <div class="content-group"><div class="group-heading"><span></span><div><p>IN PROGRESS</p><h3>Current Research</h3></div></div><div id="currentResearchList" class="research-list"></div></div>
+                <div class="content-group"><div class="group-heading"><span></span><div><p>ARCHIVAL RESEARCH</p><h3>Journal Papers</h3></div></div><div id="journalPaperList" class="research-list"></div></div>
+                <div class="content-group"><div class="group-heading"><span></span><div><p>PRESENTED WORK</p><h3>Conference Papers</h3></div></div><div id="conferencePaperList" class="research-list"></div></div>
             </section>
             <section id="education" class="page-section content-section section-pad split-section">
                 <div>
@@ -177,7 +178,11 @@
             class="project-close" type="button" aria-label="Close project details">×</button>
         <div id="projectDialogContent"></div>
     </dialog>
-    <script src="js/dashboard.js?v=7"></script>
+    <dialog id="mediaDialog" class="media-dialog" aria-labelledby="mediaDialogTitle"><button id="mediaClose"
+            class="media-close" type="button" aria-label="Close document preview">×</button>
+        <div id="mediaDialogContent"></div>
+    </dialog>
+    <script src="js/dashboard.js?v=8"></script>
 </body>
 
 </html>

@@ -2,15 +2,14 @@
   {
     "role": "Research Assistant",
     "company": "ELITE Research Lab LLC",
+    "companyLinkedIn": "https://www.linkedin.com/company/elite-lab-ai/",
     "type": "Internship",
     "location": "Queens, NY, USA",
     "workMode": "Remote",
     "date": "2026-09-01",
     "endDate": "",
     "current": true,
-    "details": [
-      "Computer Vision, LLM, VLM"
-    ],
+    "details": [],
     "skills": [
       "Computer Vision",
       "LLM",
@@ -21,29 +20,42 @@
     "sortOrder": 30,
     "id": "2b31c00c-ae97-4640-a5a4-d091c172456a",
     "createdAt": "2026-09-15T17:19:15Z",
-    "updatedAt": "2026-09-27T21:26:21.147Z"
+    "updatedAt": "2026-10-12T08:30:00.000Z"
   },
   {
     "role": "Back End Developer",
     "company": "Vyren",
+    "companyLinkedIn": "https://de.linkedin.com/company/vyren",
     "type": "Internship",
     "location": "Germany",
     "workMode": "Remote",
-    "date": "2026-09-01",
-    "endDate": "",
-    "current": true,
+    "date": "2026-08-01",
+    "endDate": "2026-10-01",
+    "current": false,
     "details": [],
-    "skills": [],
+    "skills": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "REST API",
+      "API Handling",
+      "HTTPS"
+    ],
     "links": [],
-    "attachment": "",
+    "certificateTitle": "Verified Backend Internship",
+    "attachment": "data/assets/documents/experience/dc-vip-2026-000055.pdf",
+    "certificatePreview": "data/assets/documents/experience/dc-vip-2026-000055-preview.png",
+    "certificateUrl": "https://devconnectplatform.com/verify/DC-VIP-2026-000055",
     "sortOrder": 20,
     "id": "6183cec8-5f47-4f94-890f-7314ecbca0d1",
     "createdAt": "2026-09-27T21:26:21.166Z",
-    "updatedAt": "2026-09-27T21:26:21.166Z"
+    "updatedAt": "2026-10-12T08:30:00.000Z"
   },
   {
     "role": "Backend AI Engineer - Intern",
     "company": "FlyRank AI",
+    "companyLinkedIn": "https://www.linkedin.com/company/flyrank/",
     "type": "Internship",
     "location": "",
     "workMode": "Remote",
@@ -51,12 +63,15 @@
     "endDate": "",
     "current": true,
     "details": [],
-    "skills": [],
+    "skills": [
+      "LLM",
+      "AI Prompt Engineering"
+    ],
     "links": [],
     "attachment": "",
     "sortOrder": 10,
     "id": "8490e6cf-1e22-41ad-94b7-91380eb0cef5",
     "createdAt": "2026-09-27T21:26:21.176Z",
-    "updatedAt": "2026-09-27T21:26:21.176Z"
+    "updatedAt": "2026-10-12T08:30:00.000Z"
   }
 ]

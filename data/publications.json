@@ -1,47 +1,36 @@
 [
   {
-    "title": "Attention-Guided Lightweight Plant Disease Classification with Severity-Aware Evaluation and Explainable Analysis",
-    "venue": "Under Review",
+    "category": "Conference Paper",
+    "title": "Do Explanations Agree When the Model Is Right? Cross-Method Saliency Agreement as a Label-Free Error Signal for Chest X-Ray Pneumonia Detection",
+    "venue": "IEEE COMPAS 2026",
     "year": "2026",
-    "authors": "Saikat Das",
-    "date": "2026-03-31",
+    "authors": "Saikat Das, Tanvir Hasanat",
+    "date": "2026-10-09",
+    "doi": "",
     "paperUrl": "",
-    "codeUrl": "https://github.com/saikatdas47/AGL_PlantDiseaseClassification_SeverityAwareEvaluation_ExplainableAnalysis",
-    "notes": "Under review. Lightweight plant disease classification with severity-aware evaluation, attention mechanisms, and explainable analysis.",
-    "id": "82ec3c7b-3a7f-406c-920d-c6a7d8dfffa5",
-    "createdAt": "2026-09-15T12:59:14.489Z",
-    "updatedAt": "2026-09-15T12:59:14.489Z",
-    "ongoing": false,
-    "sortOrder": 10
-  },
-  {
-    "title": "Hardware-Aware CNN Deployment for Waste Classification: Quantization–Architecture Trade-offs on Edge Devices",
-    "venue": "Under Review",
-    "year": "2026",
-    "authors": "Saikat Das",
-    "date": "2026-03-31",
-    "paperUrl": "",
-    "codeUrl": "https://github.com/saikatdas47/edge-waste-cnn-quantization/tree/main",
-    "notes": "Under review. Focuses on quantization-aware edge deployment and architecture trade-offs for waste classification.",
-    "id": "0d726315-92a8-4375-bc71-92304a855354",
-    "createdAt": "2026-09-15T12:59:14.489Z",
-    "updatedAt": "2026-09-15T12:59:14.489Z",
-    "ongoing": false,
-    "sortOrder": 9
-  },
-  {
-    "title": "A Deployment-Oriented Edge-AI Framework for Real-Time Waste Classification with Biometric Authentication and Secure Logging",
-    "venue": "Under Review",
-    "year": "2026",
-    "authors": "Saikat Das",
-    "date": "2026-03-31",
-    "paperUrl": "",
-    "codeUrl": "https://github.com/saikatdas47/A-Deployment-Oriented-Edge-AI-Framework-for-Real-Time-Waste-Classification",
-    "notes": "Under review. Real-time smart waste classification framework with biometric authentication and secure logging.",
-    "id": "fb8951bb-23e4-42e3-95ec-6b3667de3dfc",
-    "createdAt": "2026-09-15T12:59:14.489Z",
-    "updatedAt": "2026-09-15T12:59:14.489Z",
-    "ongoing": false,
-    "sortOrder": 8
+    "codeUrl": "",
+    "paperFile": "",
+    "media": [
+      {
+        "title": "Paper presentation",
+        "url": "",
+        "path": "data/assets/publications/compas-2026/presentation-certificate-moment.jpeg"
+      },
+      {
+        "title": "IEEE COMPAS 2026",
+        "url": "",
+        "path": "data/assets/publications/compas-2026/compas-2026-event.jpeg"
+      },
+      {
+        "title": "Certificate of presentation",
+        "url": "",
+        "path": "data/assets/publications/compas-2026/certificate-of-presentation.jpeg"
+      }
+    ],
+    "notes": "Paper ID 339. Presented at the IEEE 3rd International Conference on Computing, Applications and Systems (COMPAS 2026), University of Dhaka, 9–10 October 2026.",
+    "sortOrder": 30,
+    "id": "4f11dd3f-995b-4a1e-bb0b-25f34c9adeaa",
+    "createdAt": "2026-10-12T07:57:47.000Z",
+    "updatedAt": "2026-10-12T07:57:47.000Z"
   }
 ]

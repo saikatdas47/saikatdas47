@@ -88,13 +88,15 @@ The admin list can be searched and sorted by manual sort order, last update, cre
 
 ## Portfolio grouping controls
 
-The public portfolio groups content from three admin checkboxes:
+The public portfolio groups content with the following admin controls:
 
 - **Industry-focused project:** checked projects appear under “Industry-focused Projects”; unchecked projects appear under “Undergraduate Projects”.
-- **Ongoing research:** checked research appears under “Ongoing Research”. Uncheck it later to move the item into “Research Works”.
+- **Research section:** choose “Current Research”, “Conference Paper”, or “Journal Paper”. Conference and journal entries can include a paper PDF and up to four presentation, certificate, or gallery media items.
 - **Highlight this certificate:** checked certificates appear under “Highlighted Certificates”; unchecked certificates remain under “Other Certificates”.
 
-These options are saved as normal Boolean values in the corresponding JSON records. IDs and timestamps continue to be generated automatically.
+These options are saved in the corresponding JSON records. IDs and timestamps continue to be generated automatically.
+
+Experience records can include a company LinkedIn URL, certification title, PDF, preview image, and verification URL. The public Experience page links the company name to LinkedIn, shows the preview beside the role, and opens the original PDF in a larger viewer.
 
 ## Volunteer experience
 

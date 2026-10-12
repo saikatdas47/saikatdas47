@@ -45,7 +45,7 @@ const models = {
       { name: "name", label: "Project name", type: "text", required: true },
       { name: "description", label: "Description", type: "textarea", required: true, wide: true },
       { name: "details", label: "Full project details", type: "textarea", wide: true, help: "Shown on the individual project page. Add the problem, approach, important features and outcome." },
-      { name: "tags", label: "Technologies / tags", type: "tags", wide: true },
+      { name: "tags", label: "Technologies / tags", type: "tags", wide: true, help: "Enter one technology per line (for example: Node.js, PostgreSQL and Redis on separate lines)." },
       { name: "repo", label: "Repository URL", type: "url" },
       { name: "demo", label: "Live project URL", type: "url", help: "Optional. Add the deployed website or working demo link." },
       { name: "image", label: "Project image", type: "file", accept: "image/*" },
@@ -62,6 +62,7 @@ const models = {
     fields: [
       { name: "role", label: "Role / position", type: "text", required: true },
       { name: "company", label: "Company / organization", type: "text", required: true },
+      { name: "companyLinkedIn", label: "Company LinkedIn URL", type: "url", help: "Shown beside the company name on the public Experience page." },
       { name: "type", label: "Employment type", type: "select", options: ["Full-time", "Part-time", "Internship", "Contract", "Freelance", "Volunteer", "Research"] },
       { name: "location", label: "Location", type: "text" },
       { name: "workMode", label: "Work mode", type: "select", options: ["On-site", "Hybrid", "Remote"] },
@@ -71,7 +72,10 @@ const models = {
       { name: "details", label: "Achievements (one per line)", type: "lines", wide: true },
       { name: "skills", label: "Research areas / skills", type: "tags", wide: true },
       { name: "links", label: "Related links", type: "links", wide: true },
-      { name: "attachment", label: "Supporting PDF", type: "file", accept: "application/pdf", assetFolder: "documents/experience" },
+      { name: "certificateTitle", label: "Certification document title", type: "text", help: "Short label shown beside this experience, for example: Verified Internship." },
+      { name: "attachment", label: "Certification document (PDF)", type: "file", accept: "application/pdf", assetFolder: "documents/experience" },
+      { name: "certificatePreview", label: "Certification preview image", type: "file", accept: "image/*", assetFolder: "documents/experience", help: "Optional thumbnail shown beside the job. Clicking it opens the PDF." },
+      { name: "certificateUrl", label: "Certification verification URL", type: "url", help: "Optional public verification link for this document." },
       { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
@@ -108,8 +112,9 @@ const models = {
   },
   publications: {
     label: "Publications", singular: "publication", shape: "array", assetFolder: "publications",
-    description: "Research outputs with conservative status, URLs, DOI and optional paper file.",
+    description: "Current research, conference papers and journal papers with DOI, files and a four-item presentation gallery.",
     fields: [
+      { name: "category", label: "Research section", type: "select", required: true, options: ["Current Research", "Conference Paper", "Journal Paper"], help: "Controls which section contains this record on the portfolio." },
       { name: "title", label: "Title", type: "textarea", required: true, wide: true },
       { name: "authors", label: "Authors", type: "text", required: true, wide: true },
       { name: "venue", label: "Venue / status", type: "text", required: true },
@@ -119,8 +124,8 @@ const models = {
       { name: "paperUrl", label: "Paper URL", type: "url" },
       { name: "codeUrl", label: "Code URL", type: "url" },
       { name: "paperFile", label: "Paper PDF", type: "file", accept: "application/pdf", assetFolder: "documents/publications" },
+      { name: "media", label: "Presentation / certificate gallery", type: "media", wide: true, maxItems: 4, assetFolder: "publications", help: "Add up to four presentation photos, certificate images, PDFs or related links." },
       { name: "notes", label: "Notes", type: "textarea", wide: true },
-      { name: "ongoing", label: "Ongoing research", type: "checkbox", help: "Checked research appears in Ongoing Research; uncheck it when the work should move to Research Works." },
       { name: "sortOrder", label: "Manual sort order", type: "number", help: "Higher numbers appear first on the portfolio." }
     ]
   },
@@ -195,7 +200,7 @@ function validate(name, value) {
       if (field.required && (fieldValue == null || String(fieldValue).trim() === "")) errors.push(`${prefix}: ${field.label} is required.`);
       if (fieldValue == null || fieldValue === "") return;
       if (["tags", "lines", "links", "media"].includes(field.type) && !Array.isArray(fieldValue)) errors.push(`${prefix}: ${field.label} must be a list.`);
-      if (field.type === "media" && Array.isArray(fieldValue) && fieldValue.length > 50) errors.push(`${prefix}: ${field.label} supports up to 50 items.`);
+      if (field.type === "media" && Array.isArray(fieldValue) && fieldValue.length > (field.maxItems || 50)) errors.push(`${prefix}: ${field.label} supports up to ${field.maxItems || 50} items.`);
       if (field.type === "number" && typeof fieldValue !== "number") errors.push(`${prefix}: ${field.label} must be a number.`);
       if (field.type === "checkbox" && typeof fieldValue !== "boolean") errors.push(`${prefix}: ${field.label} must be true or false.`);
       if (field.type === "date" && !/^\d{4}-\d{2}-\d{2}$/.test(fieldValue)) errors.push(`${prefix}: ${field.label} must use YYYY-MM-DD.`);
