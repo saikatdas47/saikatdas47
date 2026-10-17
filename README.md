@@ -1,134 +1,121 @@
-Hi, I’m Saikat Das 👋
+<div align="center">
+  <img src="./data/assets/profile/dp3.jpeg" width="150" alt="Saikat Das" />
 
-Computer Science graduate passionate about AI research, Edge AI, backend systems, data engineering, and applied machine learning. I enjoy building practical systems that combine software, data, and intelligent automation.
+  # Hi, I'm Saikat Das 👋
 
-About Me
+  **Computer Science Graduate · AI Researcher · Backend & Edge AI Engineer**
 
-* 🎓 B.Sc. in Computer Science and Engineering, Ahsanullah University of Science and Technology (AUST)
-* 💡 Interested in AI/ML/DL, backend development, IoT systems, data pipelines, and intelligent real-world applications
-* 🧠 Strong interest in problem solving, algorithms, system design, and research-driven development
-* 🌱 Currently exploring deeper work in edge intelligence, deployment-efficient deep learning, and scalable backend systems
-* 📍 Based in Bangladesh
+  I build practical systems at the intersection of software, data and intelligent automation.
 
-Research Interests
+  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2457E6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saikatdas47.github.io/saikatdas47/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saikatdas47)
+  [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=kaDopjgAAAAJ&hl=en)
+  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saikatdasmain47@gmail.com)
+</div>
 
-* Edge AI and TinyML
-* Deep Learning for real-world applications
-* Computer Vision
-* AI for smart systems and automation
-* IoT-enabled intelligent systems
-* Secure and trustworthy AI systems
-* Data engineering and analytical pipelines
-* Applied machine learning for social and industrial problems
+## About Me
 
-Technical Skills
+I am a Computer Science and Engineering graduate from **Ahsanullah University of Science and Technology (AUST)**, based in Chittagong, Bangladesh. My work spans AI/ML research, computer vision, Edge AI, backend engineering, data systems and IoT-enabled applications. I enjoy turning research ideas into useful, reliable and deployment-aware systems.
+
+- 🔬 Research Assistant at **ELITE Research Lab LLC**, working with Computer Vision, LLMs and VLMs
+- 🤖 Backend AI Engineer Intern at **FlyRank AI**, focusing on LLM applications and prompt engineering
+- 🌱 Currently exploring edge intelligence, deployment-efficient deep learning and scalable backend systems
+- 🧠 Interested in algorithms, system design, trustworthy AI and research-driven development
+- 🤝 Open to meaningful research collaboration and engineering opportunities
+
+## Research Interests
+
+- Edge AI, TinyML and deployment-efficient deep learning
+- Computer vision and deep learning for real-world applications
+- Vision-language models and intelligent automation
+- IoT-enabled smart systems
+- Secure, explainable and trustworthy AI
+- Data engineering and analytical pipelines
+- Applied machine learning for social and industrial problems
+
+## Technical Skills
 
 <table>
-<tr>
-<td valign="top" width="50%">
-
-Programming
-
-* Python
-* C++
-* JavaScript
-* Java (Basic)
-
-Backend & Web
-
-* Node.js
-* Express.js
-* REST APIs
-* MongoDB
-* MySQL
-* Firebase
-* PHP (Basic)
-* .NET
-
-</td>
-<td valign="top" width="50%">
-
-AI / Data / ML
-
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* TensorFlow
-* PyTorch
-
-Tools
-
-* Git
-* GitHub
-* Linux
-* Jupyter Notebook
-* VS Code
-* Docker (Basic)
-* AWS
-* Firebase
-
-</td>
-</tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Programming</strong><br><br>
+      Python · C++ · JavaScript · Java · PHP · C#/.NET
+      <br><br>
+      <strong>Backend & APIs</strong><br><br>
+      Node.js · Express.js · REST APIs · JWT · Socket.IO · PostgreSQL · MongoDB · MySQL · Firebase · Redis
+    </td>
+    <td valign="top" width="50%">
+      <strong>AI, ML & Data</strong><br><br>
+      PyTorch · TensorFlow · TFLite · Scikit-learn · Pandas · NumPy · Matplotlib · NLP · Computer Vision
+      <br><br>
+      <strong>Tools & Platforms</strong><br><br>
+      Git · GitHub · Linux · Docker · AWS · Cloudinary · Jupyter Notebook · VS Code · Raspberry Pi
+    </td>
+  </tr>
 </table>
 
-Selected Projects
+## Featured Projects
 
-SmartWasteBin
+| Project | What it demonstrates | Stack | Links |
+|---|---|---|---|
+| **CommerceX — Multi-Vendor Marketplace** | Secure multi-vendor workflows, transactional inventory, real-time seller communication and an AI-assisted shopping experience | Node.js, PostgreSQL, Redis, Socket.IO, React, Docker | [GitHub](https://github.com/saikatdas47/Multi-vendor-marketplace) · [Live](https://multi-vendor-marketplace-3px3.onrender.com/) |
+| **Stremars — Video Sharing Platform** | Full-stack video handling, uploads, channels, engagement features and scalable media delivery | MERN, Cloudinary, JWT, Multer, REST API | [GitHub](https://github.com/saikatdas47/Project-stream) · [Live](https://project-stream.onrender.com) |
+| **Dhaka Tesla Pool** | Route-aware shared mobility, seat-based fare calculation and real-time communication | MERN, Socket.IO, JWT, Docker, Cloudinary | [GitHub](https://github.com/saikatdas47/Dhaka-Tesla-Pool) · [Live](https://dhaka-tesla-pool-pohv.onrender.com/passenger) |
+| **SmartWasteBin** | CNN-based waste classification with edge deployment, IoT integration, cloud synchronization and secure logging | Edge AI, CNN, Raspberry Pi, Firebase, Blockchain | [GitHub](https://github.com/saikatdas47/A-Deployment-Oriented-Edge-AI-Framework-for-Real-Time-Waste-Classification) |
+| **PingMe** | Authenticated real-time messaging, presence and cloud-based media handling | MERN, Socket.IO, JWT, Cloudinary | [GitHub](https://github.com/saikatdas47/PingMe) |
+| **SentimentSphere** | End-to-end review scraping, preprocessing, NLP classification and evaluation | Python, NLP, Scikit-learn, BeautifulSoup | [GitHub](https://github.com/saikatdas47/SentimentSphere_MachineLearningProject_WithWebScraping) |
 
-An intelligent waste management system integrating CNN-based waste classification, edge deployment, cloud synchronization, and secure logging for monitoring and analytics.
+## Research & Authorship
 
-PingMe
+### Do Explanations Agree When the Model Is Right?
 
-A real-time full-stack chat application built with the MERN stack, featuring authentication, WebSocket communication, and cloud-based media handling.
+**Cross-Method Saliency Agreement as a Label-Free Error Signal for Chest X-Ray Pneumonia Detection**
 
-SentimentSphere
+- **Authors:** Saikat Das, Tanvir Hasanat
+- **Conference:** IEEE 3rd International Conference on Computing, Applications and Systems — COMPAS 2026
+- **Paper ID:** 339
+- **Presented:** University of Dhaka, 9–10 October 2026
+- **Focus:** Explainable AI, saliency agreement and pneumonia detection from chest X-rays
 
-A sentiment analysis pipeline for e-commerce reviews using NLP and machine learning, including scraping, preprocessing, and classification.
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-View_Profile-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=kaDopjgAAAAJ&hl=en)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-View_Profile-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Saikat-Das-69?ev=hdr_xprf)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--5378--7777-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-5378-7777)
 
-BlogApp
+## Selected Certifications
 
-A backend-focused blog platform with CRUD operations, authentication, MVC architecture, and cloud deployment.
+- [Vision Language Models (VLM) Bootcamp](https://courses.opencv.org/certificates/7ecabf0f69714e09ad7af524e9f58759) — OpenCV University
+- [Introduction to Data Engineering](https://www.coursera.org/account/accomplishments/verify/A46MCR637UDD) — IBM
+- [Introduction to Large Language Models](https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/16825174) — Google Cloud
+- [Responsible AI: Applying AI Principles](https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21307039) — Google Cloud
+- [Prompt Design in Vertex AI](https://www.skills.google/public_profiles/a57bd8e8-1487-46ab-bba4-a30fe6737724/badges/21300762) — Google Cloud
+- [PyTorch Bootcamp](https://courses.opencv.org/certificates/3beaeebbbc67468cafb37fbb382b97a8) — OpenCV University
 
-What I Like Working On
+## Highlights
 
-* Research-oriented software projects
-* AI systems that solve practical problems
-* Efficient model deployment
-* Backend architecture and APIs
-* Data processing and analytics
-* Building clean, scalable, and useful systems
+- Presented research at **IEEE COMPAS 2026**
+- Solved **200+ problems** across competitive programming platforms
+- Built systems across AI, backend engineering, full-stack development, IoT and data analytics
+- Worked with real-time communication, cloud media, relational and NoSQL databases, containerization and edge deployment
 
-Achievements
+## Important Links
 
-* Solved 200+ problems on competitive programming platforms
-* Regularly practiced data structures and algorithms
-* Built projects across AI, backend, full-stack, IoT, and data systems
+| Platform | Link |
+|---|---|
+| Portfolio | [saikatdas47.github.io/saikatdas47](https://saikatdas47.github.io/saikatdas47/) |
+| GitHub | [github.com/saikatdas47](https://github.com/saikatdas47) |
+| LinkedIn | [linkedin.com/in/saikatdas47](https://linkedin.com/in/saikatdas47) |
+| Google Scholar | [Scholar profile](https://scholar.google.com/citations?user=kaDopjgAAAAJ&hl=en) |
+| ResearchGate | [ResearchGate profile](https://www.researchgate.net/profile/Saikat-Das-69?ev=hdr_xprf) |
+| ORCID | [0009-0006-5378-7777](https://orcid.org/0009-0006-5378-7777) |
+| Codeforces | [the_royloard](https://codeforces.com/profile/the_royloard) |
+| Industry-focused CV | [View CV](./data/assets/documents/1789665292522-saikat-soft.pdf) |
+| Academic-focused CV | [View CV](./data/assets/documents/1789665285194-saikat-ac.pdf) |
+| Email | [saikatdasmain47@gmail.com](mailto:saikatdasmain47@gmail.com) |
 
-Certifications
+---
 
-* IBM — Introduction to Data Engineering
-* Google Cloud — Responsible AI
-* Google Cloud — Prompt Design in Vertex AI
-* Google Cloud — Introduction to Large Language Models
-* Google Cloud — Introduction to Generative AI
-
-Goals
-
-I want to contribute to impactful work in:
-
-* AI research
-* Intelligent edge systems
-* Scalable backend engineering
-* Data-driven software solutions
-
-Connect With Me
-
-* 📧 Email: saikatdasmain47@gmail.com
-* 💼 LinkedIn
-* 💻 GitHub
-* 🧩 Codeforces
-
-⸻
-
-I am always interested in meaningful collaboration, research opportunities, and building systems that connect intelligence with practical use.
+<div align="center">
+  <strong>Interested in AI research, intelligent edge systems, scalable backend engineering and data-driven software.</strong>
+  <br><br>
+  Always open to meaningful collaboration and work that connects intelligence with practical use.
+</div>
