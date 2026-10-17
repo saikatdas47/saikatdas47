@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./data/assets/profile/dp3.jpeg" width="150" alt="Saikat Das" />
+  <!-- <img src="./data/assets/profile/dp3.jpeg" width="150" alt="Saikat Das" /> -->
 
   # Hi, I'm Saikat Das 👋
 
